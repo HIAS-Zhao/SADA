@@ -1,0 +1,80 @@
+{
+  "features_dir": "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion",
+  "output_dir": "@@WORKSPACE@@/drift_detection_exp/results_detection/task_heldout_detector_20260726",
+  "shift_tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "stable_tasks": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "no_drift_split": "task-stratified deterministic 50/50 development/test split",
+  "selection_drift": "all shifted tasks except the held-out task for that fold",
+  "test_drift": "held-out shifted task only",
+  "selection_seeds": [
+    142,
+    143,
+    144
+  ],
+  "test_seeds": [
+    42,
+    43,
+    44
+  ],
+  "pca_dims": [
+    64,
+    128,
+    192,
+    256
+  ],
+  "window_sizes": [
+    100,
+    150,
+    200,
+    300
+  ],
+  "quantiles": [
+    0.95,
+    0.97,
+    0.99,
+    0.995
+  ],
+  "feature_groups": [
+    "A+E_text",
+    "E_text",
+    "A"
+  ],
+  "fusion": "single stream for A or E_text; max normalized score for A+E_text",
+  "calibration_windows": 10000,
+  "selection_windows_per_ratio": 1000,
+  "test_windows_per_ratio": 1000,
+  "drift_ratios": [
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+    0.2
+  ],
+  "selection_rule": "highest development macro, then lower development FPR, then deterministic simplicity tie-break",
+  "fixed_main_config": {
+    "feature_group": "A+E_text",
+    "pca_dim": 128,
+    "window_size": 200,
+    "quantile": 0.99
+  },
+  "test_access_during_selection": false
+}

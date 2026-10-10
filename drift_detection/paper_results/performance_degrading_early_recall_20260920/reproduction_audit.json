@@ -1,0 +1,252 @@
+{
+  "full_historical_trial_count": true,
+  "all_metrics_match": true,
+  "comparisons": [
+    {
+      "method": "SADA",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "DDM",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "EDDM",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "ADWIN",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "HDDM-W",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "Page-Hinkley",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "KSWIN",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "OPTWIN",
+      "seed": 42,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "SADA",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "DDM",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "EDDM",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "ADWIN",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "HDDM-W",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "Page-Hinkley",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "KSWIN",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "OPTWIN",
+      "seed": 43,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "SADA",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "DDM",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "EDDM",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "ADWIN",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "HDDM-W",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "Page-Hinkley",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "KSWIN",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    },
+    {
+      "method": "OPTWIN",
+      "seed": 44,
+      "differences": {
+        "mean_delay_censored": 0.0,
+        "r50": 0.0,
+        "r100": 0.0,
+        "r200": 0.0
+      }
+    }
+  ],
+  "metrics": [
+    "mean_delay_censored",
+    "r50",
+    "r100",
+    "r200"
+  ]
+}

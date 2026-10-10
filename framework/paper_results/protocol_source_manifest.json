@@ -1,0 +1,22 @@
+[
+  {
+    "source": "@@WORKSPACE@@/drift_lora_project/scripts/select_qwen25_target80_admission_candidates.py",
+    "snapshot": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/protocol_snapshot/custom_selector.py",
+    "sha256": "25c5074f50f1c57fa75d00f57c547e7f4f7893e3297621615af1af5f62d0e46c"
+  },
+  {
+    "source": "@@WORKSPACE@@/drift_lora_project/scripts/summarize_qwen25_target80_admission_results.py",
+    "snapshot": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/protocol_snapshot/custom_summarizer.py",
+    "sha256": "f512ff17b53dd024f32ef439f9798d9709dc47060ae16f597b9eb040f604675c"
+  },
+  {
+    "source": "@@WORKSPACE@@/drift_lora_project/results/three_models_light_period5_expanded_20260921/replay.py",
+    "snapshot": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/protocol_snapshot/omniearth_replay.py",
+    "sha256": "542505b7a6bbb19e3853ab6ddc0ff5c64d75ee1ee173dd0ac25cf30c25696272"
+  },
+  {
+    "source": "@@WORKSPACE@@/AuthorKit27/TGRS_submission/SADA_TGRS_main_results.tex",
+    "snapshot": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/protocol_snapshot/original_table_source.tex",
+    "sha256": "457d369e80b851f8ec1c6b3051d02285a87fa2a7d376f22ac89cd12c721406da"
+  }
+]

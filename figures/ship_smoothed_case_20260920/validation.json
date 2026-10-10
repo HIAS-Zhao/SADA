@@ -1,0 +1,57 @@
+{
+  "group": "v2_g3_A9_B5",
+  "scenario": "ar0p2",
+  "arrival_rate": 0.2,
+  "upstream_wait_s": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "display_y_limits_pct": [
+    35,
+    80
+  ],
+  "sigma_samples": 15.0,
+  "sigma_seconds": 75.0,
+  "smoothing": "Reflected symmetric Gaussian, truncate4; SADA filtered separately within each saved pre/post-ready segment, NoRetrain continuously; means preserved to1e-12. No jitter, permutation, vertical shifts, or time rescaling.",
+  "metric": "Executed held-out R_test outcome stream, not fixed-set checkpoint accuracy.",
+  "mean_metrics": {
+    "ready_s": 421.82479766666665,
+    "pre_sada": 0.4705773737274996,
+    "pre_noretrain": 0.49411547474549994,
+    "post_sada": 0.6797852925389157,
+    "post_noretrain": 0.5200858829844337,
+    "window_sada": 0.5181818181818182,
+    "window_noretrain": 0.5
+  },
+  "selection": "Illustrative existing absolute-load ship case chosen for pre-ready disadvantage, post-ready advantage and positive full-window advantage. All three seeds retained.",
+  "sources": {
+    "@@WORKSPACE@@/AuthorKit27/TGRS_submission/analysis/ship_smoothed_case_20260920/build_ship_figure.py": "7a357e2239c723962522d4645ec760f67f18f4d3994177fe93675e23e768eb38",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r16_a32_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "427ff981d50281c3c5d658b5bb5ab7e2d3829ede5f7b8625d47657d764b72b9e",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r16_a32_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "8d68ec051c2784ee2cec997d3c41b3732818fc372e216f8c717c604791264283",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_eval_report.json": "730c43147de37ed95228d9db93670e83cf3e6eef0a6262c6491ce429dbbda112",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "fdfc0dd0b7a0823545e372d7f05cf0b3e21aed0eb0ed3ebebf97efda1b8e9298",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "efcbb20f03739c07138179fb9c364ac0e1e0d379f202689020743f3246f6b830",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed42/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_0/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "1a947f4a2e1a3ed645506d0d2caf3f6a2e913509ff5792a093e8b911e08a1e51",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/seed_pareto_grid/true_accuracy_pareto_grid/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r32_a64_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "0bd998458e107535803d57d656fc8c9bf6da9c1630816bb61f29021383bba479",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/seed_pareto_grid/true_accuracy_pareto_grid/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r32_a64_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "9c581315b6aec9903ec7ab85fbe9264664e3f72fefce5e1a6d08c38764496dd0",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_1/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_eval_report.json": "f4316d103d43433f4e2fa2e4e5607b8aa10bdd6cc21b7b73d47f3fa06d280fe8",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_1/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "fdfc0dd0b7a0823545e372d7f05cf0b3e21aed0eb0ed3ebebf97efda1b8e9298",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_1/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "5f490c90593373288b211ab2b9b4d7159409f30eedcbc0841ae477e4ae76cdc0",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed43/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_1/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "1a947f4a2e1a3ed645506d0d2caf3f6a2e913509ff5792a093e8b911e08a1e51",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r16_a32_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "e4ded4cc69a1642bbcf5548392f03cc0c9e48488104680e3e2fc175f0ae6ed02",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/adapter/v2_g3_A9_B5/qwen25vl3b_lora_r16_a32_profile80_target320/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "0ed303b58cf3db0cfd23f6c55ec0a58ec2781fa46eb05f3d607cbc577d4f16ea",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_eval_report.json": "c33338c202f33a72c27067c1a84c166eea118d66cab0e47a6290c9c835f12465",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/base/v2_g3_A9_B5/final_fp32_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "fdfc0dd0b7a0823545e372d7f05cf0b3e21aed0eb0ed3ebebf97efda1b8e9298",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_eval_report.json": "113883d225fe787f05cc9a291b85aa2652be86005e96af2cb015c6fed0407306",
+    "@@WORKSPACE@@/drift_lora_project/results/all_model_three_seed_repeats_20260715/seed44/qwen25/step6/true_accuracy_full_r/ar0p05/shards/gpu_4/base/v2_g3_A9_B5/final_fp4_res672_tok16_full_keep100_b1/strict_predictions.jsonl": "1a947f4a2e1a3ed645506d0d2caf3f6a2e913509ff5792a093e8b911e08a1e51",
+    "@@WORKSPACE@@/drift_lora_project/results/dtop80_current_pool_recompute_20260726/all_model_rtest_only_formal_profiles_new_manifest/seed42/pressure/qwen25/ar0p2/group_detail_native.csv": "1f0423c3581dbe14a2dfc2c807fe3b4656fce2e13072766d42e7cc8cca26e561",
+    "@@WORKSPACE@@/drift_lora_project/results/dtop80_current_pool_recompute_20260726/all_model_rtest_only_formal_profiles_new_manifest/seed43/pressure/qwen25/ar0p2/group_detail_native.csv": "7440ee8bd6f382a83a9cace578b38048dfcdfe87b210f90bbcfe0bfe0c68ee3c",
+    "@@WORKSPACE@@/drift_lora_project/results/dtop80_current_pool_recompute_20260726/all_model_rtest_only_formal_profiles_new_manifest/seed44/pressure/qwen25/ar0p2/group_detail_native.csv": "f90a28934acac06c2a25eeda9a41e61b5fa7ddc63179572778995575fb3eaf33",
+    "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/qwen25_selections.json": "74adb60ad6608681ddd1808360d93a8014f6f3caaf1bea8e22848b1f79a07245",
+    "@@WORKSPACE@@/drift_lora_project/results/upstream_delay_sensitivity_formal_new_manifest_0to5s_20260907/group_delay_rows.csv": "9e3f7edd5a23ff8028596fae43f17cd77183c98c54a9295c7c834078be2612ed",
+    "@@WORKSPACE@@/drift_lora_project/results/upstream_delay_sensitivity_formal_new_manifest_0to5s_20260907/upstream_delay_protocol.json": "734a2c9566373adbc6f550586bb2be54881d02902f6e4bc70b9f054147e833d7",
+    "@@WORKSPACE@@/drift_lora_project/results/v2_teacher_closed_loop_20260630_181348/step5_v2_5group_framework_fisher5_rwindow_formal_methods_20260703_160924/inputs/true_5group_rwindow_root/groups/v2_g3_A9_B5/R_test/data.json": "6f18a76b481869a7b499ad06949606e0b76e96794141612b99aad8571c075920"
+  }
+}

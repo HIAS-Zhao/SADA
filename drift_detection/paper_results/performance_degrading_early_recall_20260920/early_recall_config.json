@@ -1,0 +1,785 @@
+{
+  "protocol": "500_clean_then_500_sample_high_loss_postchange_segment",
+  "degrading_cdf_threshold": 0.7,
+  "degrading_pool_size": 686,
+  "degrading_pool_fraction": 0.08972011509285902,
+  "degrading_pool_mean_nll": 2.1340339689491095,
+  "degrading_pool_mean_cdf": 0.7696610527974652,
+  "calibration_failure_rate": 0.30014224751066854,
+  "no_drift_failure_rate": 0.27510917030567683,
+  "drift_pool_failure_rate": 1.0,
+  "clean_prefix": 500,
+  "drift_suffix": 500,
+  "budgets": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    100,
+    200
+  ],
+  "trials": 1000,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selected_detector_configs": {
+    "DDM": {
+      "selected_index": 2,
+      "selected": {
+        "config": {
+          "warm_start": 30,
+          "warning_threshold": 2.0,
+          "drift_threshold": 2.5
+        },
+        "calibration_fpr": 0.0
+      },
+      "candidates": [
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 1.5
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.0
+          },
+          "calibration_fpr": 0.4
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.5
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.0
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.5
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 4.0
+          },
+          "calibration_fpr": 0.0
+        }
+      ]
+    },
+    "EDDM": {
+      "selected_index": 2,
+      "selected": {
+        "config": {
+          "warm_start": 30,
+          "alpha": 0.98,
+          "beta": 0.92
+        },
+        "calibration_fpr": 0.0
+      },
+      "candidates": [
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.97
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.95
+          },
+          "calibration_fpr": 0.9966666666666667
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.92
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.9
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.85
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.8
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.75
+          },
+          "calibration_fpr": 0.0
+        }
+      ]
+    },
+    "ADWIN": {
+      "selected_index": 0,
+      "selected": {
+        "config": {
+          "delta": 0.1,
+          "clock": 8,
+          "min_window_length": 10,
+          "grace_period": 30,
+          "max_window": 400,
+          "cut_step": 5,
+          "two_sided": true
+        },
+        "calibration_fpr": 0.01
+      },
+      "candidates": [
+        {
+          "config": {
+            "delta": 0.1,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.01
+        },
+        {
+          "config": {
+            "delta": 0.05,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "delta": 0.02,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "delta": 0.01,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "delta": 0.005,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "delta": 0.002,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "delta": 0.001,
+            "clock": 8,
+            "min_window_length": 10,
+            "grace_period": 30,
+            "max_window": 400,
+            "cut_step": 5,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        }
+      ]
+    },
+    "HDDM-W": {
+      "selected_index": 6,
+      "selected": {
+        "config": {
+          "drift_confidence": 0.0005,
+          "warning_confidence": 0.0025,
+          "lambda_val": 0.05
+        },
+        "calibration_fpr": 0.15333333333333332
+      },
+      "candidates": [
+        {
+          "config": {
+            "drift_confidence": 0.1,
+            "warning_confidence": 0.5,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "drift_confidence": 0.05,
+            "warning_confidence": 0.25,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.9966666666666667
+        },
+        {
+          "config": {
+            "drift_confidence": 0.02,
+            "warning_confidence": 0.1,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.9833333333333333
+        },
+        {
+          "config": {
+            "drift_confidence": 0.01,
+            "warning_confidence": 0.05,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.9033333333333333
+        },
+        {
+          "config": {
+            "drift_confidence": 0.005,
+            "warning_confidence": 0.025,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.73
+        },
+        {
+          "config": {
+            "drift_confidence": 0.001,
+            "warning_confidence": 0.005,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.26
+        },
+        {
+          "config": {
+            "drift_confidence": 0.0005,
+            "warning_confidence": 0.0025,
+            "lambda_val": 0.05
+          },
+          "calibration_fpr": 0.15333333333333332
+        }
+      ]
+    },
+    "Page-Hinkley": {
+      "selected_index": 6,
+      "selected": {
+        "config": {
+          "min_instances": 30,
+          "delta": 0.005,
+          "threshold": 15.0,
+          "alpha": 0.9999,
+          "mode": "both"
+        },
+        "calibration_fpr": 0.04666666666666667
+      },
+      "candidates": [
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 2.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 3.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 4.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 5.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.9733333333333334
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 7.5,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.6966666666666667
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 10.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.30666666666666664
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 15.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.04666666666666667
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 20.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.04666666666666667
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 30.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 50.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.11
+        }
+      ]
+    },
+    "KSWIN": {
+      "selected_index": 7,
+      "selected": {
+        "config": {
+          "alpha": 0.0005,
+          "window_size": 100,
+          "stat_size": 30,
+          "seed": 42,
+          "clock": 5
+        },
+        "calibration_fpr": 0.02666666666666667
+      },
+      "candidates": [
+        {
+          "config": {
+            "alpha": 0.1,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 1.0
+        },
+        {
+          "config": {
+            "alpha": 0.05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.95
+        },
+        {
+          "config": {
+            "alpha": 0.02,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.7533333333333333
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.49
+        },
+        {
+          "config": {
+            "alpha": 0.005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.22666666666666666
+        },
+        {
+          "config": {
+            "alpha": 0.002,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.08333333333333333
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.08333333333333333
+        },
+        {
+          "config": {
+            "alpha": 0.0005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.02666666666666667
+        },
+        {
+          "config": {
+            "alpha": 0.0001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.013333333333333334
+        },
+        {
+          "config": {
+            "alpha": 1e-05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.0
+        },
+        {
+          "config": {
+            "alpha": 1e-06,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42,
+            "clock": 5
+          },
+          "calibration_fpr": 0.0
+        }
+      ]
+    },
+    "OPTWIN": {
+      "selected_index": 1,
+      "selected": {
+        "config": {
+          "delta": 0.05,
+          "rigor": 0.5,
+          "max_window": 200,
+          "min_subwindow": 20,
+          "clock": 5,
+          "cut_step": 5,
+          "use_variance_test": false,
+          "two_sided": true
+        },
+        "calibration_fpr": 0.03666666666666667
+      },
+      "candidates": [
+        {
+          "config": {
+            "delta": 0.1,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.06666666666666667
+        },
+        {
+          "config": {
+            "delta": 0.05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.03666666666666667
+        },
+        {
+          "config": {
+            "delta": 0.02,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.02666666666666667
+        },
+        {
+          "config": {
+            "delta": 0.01,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.016666666666666666
+        },
+        {
+          "config": {
+            "delta": 0.005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.013333333333333334
+        },
+        {
+          "config": {
+            "delta": 0.002,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0033333333333333335
+        },
+        {
+          "config": {
+            "delta": 0.001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0033333333333333335
+        },
+        {
+          "config": {
+            "delta": 0.0005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0033333333333333335
+        },
+        {
+          "config": {
+            "delta": 0.0001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0033333333333333335
+        },
+        {
+          "config": {
+            "delta": 1e-05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0033333333333333335
+        },
+        {
+          "config": {
+            "delta": 1e-06,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": false,
+            "two_sided": true
+          },
+          "calibration_fpr": 0.0
+        }
+      ]
+    }
+  },
+  "sada": {
+    "feature_group": "A+E_text",
+    "fusion_rule": "max_norm",
+    "pca_dim": 128,
+    "quantile": 0.99,
+    "window_size": 200,
+    "delay_checkpoints": [
+      50,
+      100,
+      200,
+      300,
+      400,
+      500
+    ]
+  },
+  "sada_stride": 10,
+  "fpr_type": "window",
+  "sada_calibration_windows": 10000,
+  "sada_cov_eps": 1e-06,
+  "input_sha256": {
+    "@@WORKSPACE@@/drift_detection_exp/results_detection/performance_degrading_change_20260714/performance_degrading_config.json": "91743649540178dd75922ee412559e8e50d3ebfa96f4bf67115078f78bf89e9c",
+    "@@WORKSPACE@@/drift_detection_exp/results_detection/performance_degrading_change_20260714/performance_degrading_runs.json": "6e90c1fec6d528386ab6e64a34224ba6c604a3df594998d412a9230cf3ddb8f2",
+    "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion/0_Reference_Fit/features.pt": "72ae62bc9ee4325e156016d767cb34dd929acad3128c472179a9c5cf37c785d5",
+    "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion/1_Threshold_Cal/features.pt": "3231da895f0e8622eeff8cb412b4ea7e50ac1acf2bc1ad73f3b0d26d86fbc050",
+    "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion/2_Stream_Sim_NoDrift/features.pt": "8a7526256c517f747d6178c385647b08d932821420af3de4eeaf26f1eb76b989",
+    "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion/2_Stream_Sim_Drift/features.pt": "48d0d9bde18222317d96698c533570a93a8f1698d85fa9f747006e6c515aa1e2",
+    "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_oracle_20260714/supervised_loss/1_Threshold_Cal.jsonl": "f918b8a54e36326eea15842eae87c7a966ff88766039a8bbb633b57b81f84a99",
+    "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_oracle_20260714/supervised_loss/2_Stream_Sim_NoDrift.jsonl": "12f6f6085bdab8b63f037b732d565461eb3fdaf460005fa7e122982c0dc9fd62",
+    "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_oracle_20260714/supervised_loss/2_Stream_Sim_Drift.jsonl": "969c420d2b6703551e8fb934abed12fbff2c92a833b67635b53684ad7858bd4d",
+    "@@WORKSPACE@@/drift_detection_exp/scripts/run_performance_degrading_early_recall.py": "1b162deffce9575ddaefbb0ca14825b4b59082ca06a0bd57be82fee3af3cb46f",
+    "@@WORKSPACE@@/drift_detection_exp/scripts/run_performance_degrading_change.py": "091b9b3d2b1e6d3b2be3c81988263ffe24d25e258f376680315352a67976f469",
+    "@@WORKSPACE@@/drift_detection_exp/scripts/run_label_aware_oracle_comparison.py": "374c3d9084cb37419c591b0a3203834cf46ed4a5c99116234a987b8bf25b00d9",
+    "@@WORKSPACE@@/drift_detection_exp/scripts/run_mahalanobis_fusion_search.py": "5b2bac79a4271324570a9c1eb2ce9a63e347bdf5df1a013e445887f18cd8ca5c",
+    "@@WORKSPACE@@/drift_detection_exp/src/label_aware_detectors.py": "a278d8e1f4fb4234f1263c8b1f8335d71361a738efc80827c45df295639550d2",
+    "@@WORKSPACE@@/drift_detection_exp/src/mahalanobis_detector.py": "019142b0b468d9329c6ae90fb981409dd749ea801823242d9fa3363d7ee8f6e0"
+  },
+  "environment": {
+    "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.2",
+    "torch": "2.9.1"
+  },
+  "command": [
+    "scripts/run_performance_degrading_early_recall.py",
+    "--output-dir",
+    "results_detection/performance_degrading_early_recall_20260920",
+    "--workers",
+    "3"
+  ],
+  "workers": 3,
+  "max_trials": null,
+  "started_at": "2026-09-20T12:03:11+0800"
+}

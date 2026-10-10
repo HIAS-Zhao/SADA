@@ -1,0 +1,31 @@
+{
+  "closed_set": {
+    "status": "pass",
+    "errors": [],
+    "counts": {
+      "main_runs": 756,
+      "budget_runs": 126,
+      "task_macro_runs": 315,
+      "ordering_runs": 147
+    },
+    "permutation": {
+      "windows": 100,
+      "permutations_per_window": 20,
+      "max_score_span": 1.7763568394002505e-15,
+      "mean_score_span": 7.549516567451064e-16,
+      "detection_disagreement_windows": 0,
+      "detection_disagreement_rate": 0.0
+    }
+  },
+  "heterogeneous": {
+    "status": "pass",
+    "errors": [],
+    "counts": {
+      "runs": 1848,
+      "selection_settings": 20,
+      "signal_settings": 20
+    }
+  },
+  "overall_status": "pass",
+  "overall_error_count": 0
+}

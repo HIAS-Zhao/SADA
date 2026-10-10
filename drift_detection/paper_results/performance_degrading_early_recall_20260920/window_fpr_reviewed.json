@@ -1,0 +1,360 @@
+{
+  "description": "Window-level false-positive rates on the no-drift windows used by the label-aware detector comparison.",
+  "source_experiment": "performance_degrading_early_recall_20260920",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "trials_per_seed": 1000,
+  "normal_sequence_length": 500,
+  "window_size": 200,
+  "stride": 10,
+  "window_endpoints": [
+    200,
+    210,
+    220,
+    230,
+    240,
+    250,
+    260,
+    270,
+    280,
+    290,
+    300,
+    310,
+    320,
+    330,
+    340,
+    350,
+    360,
+    370,
+    380,
+    390,
+    400,
+    410,
+    420,
+    430,
+    440,
+    450,
+    460,
+    470,
+    480,
+    490,
+    500
+  ],
+  "sada_window_positive_rule": "Score the 200-sample window at its endpoint and compare with the original threshold.",
+  "label_aware_window_positive_rule": "At least one native detector alarm during the same 200-sample interval; retain state across window boundaries and reset after alarms.",
+  "aggregation": "Mean and sample standard deviation across seeds, percentages.",
+  "first_alarm_reproduction_checks_passed": 21000,
+  "runs": [
+    {
+      "seed": 42,
+      "method": "ADWIN",
+      "alarm_windows": 298,
+      "windows": 31000,
+      "window_fpr": 0.009612903225806452,
+      "sample_alarm_count": 19,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "ADWIN",
+      "alarm_windows": 330,
+      "windows": 31000,
+      "window_fpr": 0.01064516129032258,
+      "sample_alarm_count": 21,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "ADWIN",
+      "alarm_windows": 235,
+      "windows": 31000,
+      "window_fpr": 0.007580645161290323,
+      "sample_alarm_count": 16,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "DDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "DDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "DDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "EDDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "EDDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "EDDM",
+      "alarm_windows": 0,
+      "windows": 31000,
+      "window_fpr": 0,
+      "sample_alarm_count": 0,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "HDDM-W",
+      "alarm_windows": 619,
+      "windows": 31000,
+      "window_fpr": 0.01996774193548387,
+      "sample_alarm_count": 48,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "HDDM-W",
+      "alarm_windows": 787,
+      "windows": 31000,
+      "window_fpr": 0.025387096774193547,
+      "sample_alarm_count": 58,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "HDDM-W",
+      "alarm_windows": 1121,
+      "windows": 31000,
+      "window_fpr": 0.03616129032258065,
+      "sample_alarm_count": 79,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "KSWIN",
+      "alarm_windows": 372,
+      "windows": 31000,
+      "window_fpr": 0.012,
+      "sample_alarm_count": 38,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "KSWIN",
+      "alarm_windows": 375,
+      "windows": 31000,
+      "window_fpr": 0.012096774193548387,
+      "sample_alarm_count": 42,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "KSWIN",
+      "alarm_windows": 428,
+      "windows": 31000,
+      "window_fpr": 0.013806451612903226,
+      "sample_alarm_count": 43,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "OPTWIN",
+      "alarm_windows": 808,
+      "windows": 31000,
+      "window_fpr": 0.026064516129032256,
+      "sample_alarm_count": 85,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "OPTWIN",
+      "alarm_windows": 946,
+      "windows": 31000,
+      "window_fpr": 0.030516129032258064,
+      "sample_alarm_count": 90,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "OPTWIN",
+      "alarm_windows": 892,
+      "windows": 31000,
+      "window_fpr": 0.028774193548387096,
+      "sample_alarm_count": 75,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "Page-Hinkley",
+      "alarm_windows": 3236,
+      "windows": 31000,
+      "window_fpr": 0.10438709677419356,
+      "sample_alarm_count": 258,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 43,
+      "method": "Page-Hinkley",
+      "alarm_windows": 3831,
+      "windows": 31000,
+      "window_fpr": 0.12358064516129032,
+      "sample_alarm_count": 305,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 44,
+      "method": "Page-Hinkley",
+      "alarm_windows": 3336,
+      "windows": 31000,
+      "window_fpr": 0.10761290322580645,
+      "sample_alarm_count": 270,
+      "first_alarm_reproduction_passed": true
+    },
+    {
+      "seed": 42,
+      "method": "SADA",
+      "alarm_windows": 1160,
+      "windows": 31000,
+      "window_fpr": 0.03741935483870968
+    },
+    {
+      "seed": 43,
+      "method": "SADA",
+      "alarm_windows": 1147,
+      "windows": 31000,
+      "window_fpr": 0.037
+    },
+    {
+      "seed": 44,
+      "method": "SADA",
+      "alarm_windows": 1455,
+      "windows": 31000,
+      "window_fpr": 0.04693548387096774
+    }
+  ],
+  "summary": [
+    {
+      "method": "SADA",
+      "per_seed_pct": [
+        3.741935483870968,
+        3.6999999999999997,
+        4.693548387096774
+      ],
+      "alarm_windows": 3762,
+      "windows": 93000,
+      "window_fpr_pct": 4.04516129,
+      "window_sd_pct": 0.56191104
+    },
+    {
+      "method": "DDM",
+      "per_seed_pct": [
+        0,
+        0,
+        0
+      ],
+      "alarm_windows": 0,
+      "windows": 93000,
+      "window_fpr_pct": 0,
+      "window_sd_pct": 0
+    },
+    {
+      "method": "EDDM",
+      "per_seed_pct": [
+        0,
+        0,
+        0
+      ],
+      "alarm_windows": 0,
+      "windows": 93000,
+      "window_fpr_pct": 0,
+      "window_sd_pct": 0
+    },
+    {
+      "method": "ADWIN",
+      "per_seed_pct": [
+        0.9612903225806453,
+        1.064516129032258,
+        0.7580645161290323
+      ],
+      "alarm_windows": 863,
+      "windows": 93000,
+      "window_fpr_pct": 0.92795699,
+      "window_sd_pct": 0.15592139
+    },
+    {
+      "method": "HDDM-W",
+      "per_seed_pct": [
+        1.9967741935483871,
+        2.5387096774193547,
+        3.616129032258065
+      ],
+      "alarm_windows": 2527,
+      "windows": 93000,
+      "window_fpr_pct": 2.7172043,
+      "window_sd_pct": 0.82430138
+    },
+    {
+      "method": "Page-Hinkley",
+      "per_seed_pct": [
+        10.438709677419356,
+        12.358064516129032,
+        10.761290322580646
+      ],
+      "alarm_windows": 10403,
+      "windows": 93000,
+      "window_fpr_pct": 11.18602151,
+      "window_sd_pct": 1.02775395
+    },
+    {
+      "method": "KSWIN",
+      "per_seed_pct": [
+        1.2,
+        1.2096774193548387,
+        1.3806451612903226
+      ],
+      "alarm_windows": 1175,
+      "windows": 93000,
+      "window_fpr_pct": 1.26344086,
+      "window_sd_pct": 0.10161717
+    },
+    {
+      "method": "OPTWIN",
+      "per_seed_pct": [
+        2.606451612903226,
+        3.0516129032258066,
+        2.8774193548387097
+      ],
+      "alarm_windows": 2646,
+      "windows": 93000,
+      "window_fpr_pct": 2.84516129,
+      "window_sd_pct": 0.22432695
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "methods": 8,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "trials_per_method": 3000,
+  "historical_metric_comparisons": 96,
+  "scope": "Frozen input hashes, trial counts, detection delays and recall."
+}

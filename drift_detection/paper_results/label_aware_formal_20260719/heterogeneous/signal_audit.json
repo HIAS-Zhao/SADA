@@ -1,0 +1,352 @@
+{
+  "caption/natural/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5001422475106686,
+      "no_drift": 0.4792376868939728,
+      "drift_validation": 0.39133367817578346,
+      "drift_test": 0.3952400285103035
+    },
+    "high_score_rates": {
+      "calibration": 0.05007112375533428,
+      "no_drift": 0.048034934497816595,
+      "drift_validation": 0.0,
+      "drift_test": 0.0013600155430347775
+    }
+  },
+  "caption/natural/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004267425320057,
+      "no_drift": 0.4985564144542537,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050355618776671406,
+      "no_drift": 0.05049126637554585,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "caption/task_balanced/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5001422475106686,
+      "no_drift": 0.4792376868939728,
+      "drift_validation": 0.39133367817578346,
+      "drift_test": 0.3952400285103035
+    },
+    "high_score_rates": {
+      "calibration": 0.05007112375533428,
+      "no_drift": 0.048034934497816595,
+      "drift_validation": 0.0,
+      "drift_test": 0.0013600155430347775
+    }
+  },
+  "caption/task_balanced/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004267425320057,
+      "no_drift": 0.4985564144542537,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050355618776671406,
+      "no_drift": 0.05049126637554585,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "long_report/natural/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5001422475106686,
+      "no_drift": 0.4792376868939728,
+      "drift_validation": 0.4428269441993626,
+      "drift_test": 0.4423020083960268
+    },
+    "high_score_rates": {
+      "calibration": 0.05007112375533428,
+      "no_drift": 0.048034934497816595,
+      "drift_validation": 0.0,
+      "drift_test": 0.0011539729640619848
+    }
+  },
+  "long_report/natural/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004267425320057,
+      "no_drift": 0.4985564144542537,
+      "drift_validation": 0.6825556117524777,
+      "drift_test": 0.6953579782638133
+    },
+    "high_score_rates": {
+      "calibration": 0.050355618776671406,
+      "no_drift": 0.05049126637554585,
+      "drift_validation": 0.11265822784810127,
+      "drift_test": 0.11259479063633367
+    }
+  },
+  "long_report/task_balanced/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5001422475106686,
+      "no_drift": 0.4792376868939728,
+      "drift_validation": 0.4428269441993626,
+      "drift_test": 0.4423020083960268
+    },
+    "high_score_rates": {
+      "calibration": 0.05007112375533428,
+      "no_drift": 0.048034934497816595,
+      "drift_validation": 0.0,
+      "drift_test": 0.0011539729640619848
+    }
+  },
+  "long_report/task_balanced/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004267425320057,
+      "no_drift": 0.4985564144542537,
+      "drift_validation": 0.6825556117524777,
+      "drift_test": 0.6953579782638133
+    },
+    "high_score_rates": {
+      "calibration": 0.050355618776671406,
+      "no_drift": 0.05049126637554585,
+      "drift_validation": 0.11265822784810127,
+      "drift_test": 0.11259479063633367
+    }
+  },
+  "mcq/natural/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.7897751874667874,
+      "drift_test": 0.8015220230456048
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.2533557046979866,
+      "drift_test": 0.24946420917273895
+    }
+  },
+  "mcq/natural/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.7897751874667874,
+      "drift_test": 0.8015220230456048
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.2533557046979866,
+      "drift_test": 0.24946420917273895
+    }
+  },
+  "mcq/task_balanced/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.7897751874667874,
+      "drift_test": 0.8015220230456048
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.2533557046979866,
+      "drift_test": 0.24946420917273895
+    }
+  },
+  "mcq/task_balanced/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.7897751874667874,
+      "drift_test": 0.8015220230456048
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.2533557046979866,
+      "drift_test": 0.24946420917273895
+    }
+  },
+  "mcq_yesno/natural/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "mcq_yesno/natural/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "mcq_yesno/task_balanced/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "mcq_yesno/task_balanced/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.500366568914956,
+      "no_drift": 0.4993199622320232,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050586510263929615,
+      "no_drift": 0.05356055995130858,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "open_short/natural/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5002046663937781,
+      "no_drift": 0.47001296484715976,
+      "drift_validation": 0.5560227737878167,
+      "drift_test": 0.5629032041285431
+    },
+    "high_score_rates": {
+      "calibration": 0.050347932869422844,
+      "no_drift": 0.04453911696359411,
+      "drift_validation": 0.0,
+      "drift_test": 0.0013600155430347775
+    }
+  },
+  "open_short/natural/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004093327875563,
+      "no_drift": 0.4972921290423126,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050347932869422844,
+      "no_drift": 0.05112316034082107,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  },
+  "open_short/task_balanced/global_nll": {
+    "fallback_counts": {},
+    "mean_scores": {
+      "calibration": 0.5002046663937781,
+      "no_drift": 0.47001296484715976,
+      "drift_validation": 0.5560227737878167,
+      "drift_test": 0.5629032041285431
+    },
+    "high_score_rates": {
+      "calibration": 0.050347932869422844,
+      "no_drift": 0.04453911696359411,
+      "drift_validation": 0.0,
+      "drift_test": 0.0013600155430347775
+    }
+  },
+  "open_short/task_balanced/format_aware_nll": {
+    "fallback_counts": {
+      "calibration": {},
+      "no_drift": {},
+      "drift_validation": {},
+      "drift_test": {}
+    },
+    "mean_scores": {
+      "calibration": 0.5004093327875563,
+      "no_drift": 0.4972921290423126,
+      "drift_validation": 0.760890429218875,
+      "drift_test": 0.7681063820452878
+    },
+    "high_score_rates": {
+      "calibration": 0.050347932869422844,
+      "no_drift": 0.05112316034082107,
+      "drift_validation": 0.13484848484848486,
+      "drift_test": 0.13269865941325043
+    }
+  }
+}

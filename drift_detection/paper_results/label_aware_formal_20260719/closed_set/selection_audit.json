@@ -1,0 +1,2827 @@
+{
+  "natural/binary_error": {
+    "DDM": {
+      "status": "selected",
+      "selected_index": 2,
+      "selected": {
+        "index": 2,
+        "config": {
+          "warm_start": 30,
+          "warning_threshold": 2.0,
+          "drift_threshold": 2.5
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.1466666666666667,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 1.5
+          },
+          "calibration_fpr": 0.9966666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.0
+          },
+          "calibration_fpr": 0.08333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.5
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.1466666666666667,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.0
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.5
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 4.0
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        }
+      ]
+    },
+    "EDDM": {
+      "status": "selected",
+      "selected_index": 4,
+      "selected": {
+        "index": 4,
+        "config": {
+          "warm_start": 30,
+          "alpha": 0.98,
+          "beta": 0.85
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.0016666666666666668,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.97
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.95
+          },
+          "calibration_fpr": 0.9666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.92
+          },
+          "calibration_fpr": 0.08,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.9
+          },
+          "calibration_fpr": 0.15666666666666668,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.85
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0016666666666666668,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.8
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.75
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        }
+      ]
+    },
+    "ADWIN": {
+      "status": "selected",
+      "selected_index": 0,
+      "selected": {
+        "index": 0,
+        "config": {
+          "delta": 0.1,
+          "clock": 8,
+          "max_buckets": 5,
+          "min_window_length": 10,
+          "grace_period": 30
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.3,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.3,
+          "feasible": true
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.24,
+          "feasible": true
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.18000000000000002,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.11333333333333334,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.06833333333333333,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.03666666666666667,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.015,
+          "feasible": true
+        }
+      ]
+    },
+    "HDDM-W": {
+      "status": "selected",
+      "selected_index": 6,
+      "selected": {
+        "index": 6,
+        "config": {
+          "drift_confidence": 0.0005,
+          "warning_confidence": 0.0025,
+          "lambda_val": 0.05,
+          "two_sided_test": true
+        },
+        "calibration_fpr": 0.02666666666666667,
+        "validation_power": 0.6416666666666667,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "drift_confidence": 0.1,
+            "warning_confidence": 0.5,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.99,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "drift_confidence": 0.05,
+            "warning_confidence": 0.25,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.7366666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "drift_confidence": 0.02,
+            "warning_confidence": 0.1,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.35333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "drift_confidence": 0.01,
+            "warning_confidence": 0.05,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.18666666666666668,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "drift_confidence": 0.005,
+            "warning_confidence": 0.025,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.08,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "drift_confidence": 0.001,
+            "warning_confidence": 0.005,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.07666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "drift_confidence": 0.0005,
+            "warning_confidence": 0.0025,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.02666666666666667,
+          "validation_power": 0.6416666666666667,
+          "feasible": true
+        }
+      ]
+    },
+    "Page-Hinkley": {
+      "status": "selected",
+      "selected_index": 6,
+      "selected": {
+        "index": 6,
+        "config": {
+          "min_instances": 30,
+          "delta": 0.005,
+          "threshold": 15.0,
+          "alpha": 0.9999,
+          "mode": "both"
+        },
+        "calibration_fpr": 0.006666666666666667,
+        "validation_power": 0.3083333333333333,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 2.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 3.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 4.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 5.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.9833333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 7.5,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.6866666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 10.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.5333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 15.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.006666666666666667,
+          "validation_power": 0.3083333333333333,
+          "feasible": true
+        },
+        {
+          "index": 7,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 20.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.4666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 8,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 30.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.25666666666666665,
+          "feasible": true
+        },
+        {
+          "index": 9,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 50.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        }
+      ]
+    },
+    "KSWIN": {
+      "status": "selected",
+      "selected_index": 2,
+      "selected": {
+        "index": 2,
+        "config": {
+          "alpha": 0.02,
+          "window_size": 100,
+          "stat_size": 30,
+          "seed": 42
+        },
+        "calibration_fpr": 0.05,
+        "validation_power": 0.4533333333333333,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "alpha": 0.1,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.2833333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "alpha": 0.05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.15,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "alpha": 0.02,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.05,
+          "validation_power": 0.4533333333333333,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "alpha": 0.01,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.023333333333333334,
+          "validation_power": 0.3866666666666667,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "alpha": 0.005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.325,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "alpha": 0.002,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.2583333333333333,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "alpha": 0.001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.2583333333333333,
+          "feasible": true
+        },
+        {
+          "index": 7,
+          "config": {
+            "alpha": 0.0005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.18666666666666668,
+          "feasible": true
+        },
+        {
+          "index": 8,
+          "config": {
+            "alpha": 0.0001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.14666666666666667,
+          "feasible": true
+        },
+        {
+          "index": 9,
+          "config": {
+            "alpha": 1e-05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.055,
+          "feasible": true
+        },
+        {
+          "index": 10,
+          "config": {
+            "alpha": 1e-06,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.008333333333333333,
+          "feasible": true
+        }
+      ]
+    },
+    "OPTWIN": {
+      "status": "not_calibratable",
+      "target_fpr": 0.05,
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.15666666666666668,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.13666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.1,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.09333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.09333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.09333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.09,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "delta": 0.0005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.08333333333333333,
+          "validation_power": null,
+          "feasible": false
+        }
+      ]
+    }
+  },
+  "natural/correct_option_nll": {
+    "ADWIN": {
+      "status": "selected",
+      "selected_index": 0,
+      "selected": {
+        "index": 0,
+        "config": {
+          "delta": 0.1,
+          "clock": 8,
+          "max_buckets": 5,
+          "min_window_length": 10,
+          "grace_period": 30
+        },
+        "calibration_fpr": 0.0033333333333333335,
+        "validation_power": 0.535,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.535,
+          "feasible": true
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.4766666666666666,
+          "feasible": true
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.42333333333333334,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.40499999999999997,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.35833333333333334,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.325,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.31,
+          "feasible": true
+        }
+      ]
+    },
+    "Page-Hinkley": {
+      "status": "selected",
+      "selected_index": 9,
+      "selected": {
+        "index": 9,
+        "config": {
+          "min_instances": 30,
+          "delta": 0.005,
+          "threshold": 50.0,
+          "alpha": 0.9999,
+          "mode": "both"
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.215,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 2.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 3.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 4.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 5.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 7.5,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 10.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.9366666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 15.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.4266666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 20.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.13,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 8,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 30.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.14333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 9,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 50.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.215,
+          "feasible": true
+        }
+      ]
+    },
+    "KSWIN": {
+      "status": "selected",
+      "selected_index": 7,
+      "selected": {
+        "index": 7,
+        "config": {
+          "alpha": 0.0005,
+          "window_size": 100,
+          "stat_size": 30,
+          "seed": 42
+        },
+        "calibration_fpr": 0.02666666666666667,
+        "validation_power": 0.40166666666666667,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "alpha": 0.1,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.9966666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "alpha": 0.05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.9166666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "alpha": 0.02,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.6633333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "alpha": 0.01,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.41,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "alpha": 0.005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.19,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "alpha": 0.002,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.06666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "alpha": 0.001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.06666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "alpha": 0.0005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.02666666666666667,
+          "validation_power": 0.40166666666666667,
+          "feasible": true
+        },
+        {
+          "index": 8,
+          "config": {
+            "alpha": 0.0001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.01,
+          "validation_power": 0.34500000000000003,
+          "feasible": true
+        },
+        {
+          "index": 9,
+          "config": {
+            "alpha": 1e-05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.22,
+          "feasible": true
+        },
+        {
+          "index": 10,
+          "config": {
+            "alpha": 1e-06,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.09833333333333333,
+          "feasible": true
+        }
+      ]
+    },
+    "OPTWIN": {
+      "status": "not_calibratable",
+      "target_fpr": 0.05,
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.52,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.4,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.3,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.24333333333333335,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.24666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.19666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.16666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "delta": 0.0005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.14,
+          "validation_power": null,
+          "feasible": false
+        }
+      ]
+    }
+  },
+  "task_balanced/binary_error": {
+    "DDM": {
+      "status": "selected",
+      "selected_index": 5,
+      "selected": {
+        "index": 5,
+        "config": {
+          "warm_start": 30,
+          "warning_threshold": 2.0,
+          "drift_threshold": 4.0
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.006666666666666667,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 1.5
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.0
+          },
+          "calibration_fpr": 0.07333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 2.5
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.0
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.0,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 3.5
+          },
+          "calibration_fpr": 0.11666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "warm_start": 30,
+            "warning_threshold": 2.0,
+            "drift_threshold": 4.0
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.006666666666666667,
+          "feasible": true
+        }
+      ]
+    },
+    "EDDM": {
+      "status": "selected",
+      "selected_index": 4,
+      "selected": {
+        "index": 4,
+        "config": {
+          "warm_start": 30,
+          "alpha": 0.98,
+          "beta": 0.85
+        },
+        "calibration_fpr": 0.03,
+        "validation_power": 0.125,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.97
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.95
+          },
+          "calibration_fpr": 0.9933333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.92
+          },
+          "calibration_fpr": 0.16333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.9
+          },
+          "calibration_fpr": 0.8533333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.85
+          },
+          "calibration_fpr": 0.03,
+          "validation_power": 0.125,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.8
+          },
+          "calibration_fpr": 0.19666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "warm_start": 30,
+            "alpha": 0.98,
+            "beta": 0.75
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.07166666666666667,
+          "feasible": true
+        }
+      ]
+    },
+    "ADWIN": {
+      "status": "selected",
+      "selected_index": 0,
+      "selected": {
+        "index": 0,
+        "config": {
+          "delta": 0.1,
+          "clock": 8,
+          "max_buckets": 5,
+          "min_window_length": 10,
+          "grace_period": 30
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.32,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.32,
+          "feasible": true
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.2733333333333334,
+          "feasible": true
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.19499999999999998,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.13333333333333333,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.07166666666666667,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.034999999999999996,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.015,
+          "feasible": true
+        }
+      ]
+    },
+    "HDDM-W": {
+      "status": "selected",
+      "selected_index": 5,
+      "selected": {
+        "index": 5,
+        "config": {
+          "drift_confidence": 0.001,
+          "warning_confidence": 0.005,
+          "lambda_val": 0.05,
+          "two_sided_test": true
+        },
+        "calibration_fpr": 0.04666666666666667,
+        "validation_power": 0.6666666666666666,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "drift_confidence": 0.1,
+            "warning_confidence": 0.5,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.9966666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "drift_confidence": 0.05,
+            "warning_confidence": 0.25,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.83,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "drift_confidence": 0.02,
+            "warning_confidence": 0.1,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.52,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "drift_confidence": 0.01,
+            "warning_confidence": 0.05,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.41,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "drift_confidence": 0.005,
+            "warning_confidence": 0.025,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.20666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "drift_confidence": 0.001,
+            "warning_confidence": 0.005,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.04666666666666667,
+          "validation_power": 0.6666666666666666,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "drift_confidence": 0.0005,
+            "warning_confidence": 0.0025,
+            "lambda_val": 0.05,
+            "two_sided_test": true
+          },
+          "calibration_fpr": 0.013333333333333334,
+          "validation_power": 0.5966666666666667,
+          "feasible": true
+        }
+      ]
+    },
+    "Page-Hinkley": {
+      "status": "selected",
+      "selected_index": 7,
+      "selected": {
+        "index": 7,
+        "config": {
+          "min_instances": 30,
+          "delta": 0.005,
+          "threshold": 20.0,
+          "alpha": 0.9999,
+          "mode": "both"
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.16333333333333333,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 2.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 3.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 4.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 5.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.95,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 7.5,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.6366666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 10.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.5333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 15.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.31333333333333335,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 20.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.16333333333333333,
+          "feasible": true
+        },
+        {
+          "index": 8,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 30.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.13666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 9,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 50.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.006666666666666667,
+          "feasible": true
+        }
+      ]
+    },
+    "KSWIN": {
+      "status": "selected",
+      "selected_index": 3,
+      "selected": {
+        "index": 3,
+        "config": {
+          "alpha": 0.01,
+          "window_size": 100,
+          "stat_size": 30,
+          "seed": 42
+        },
+        "calibration_fpr": 0.04,
+        "validation_power": 0.37833333333333335,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "alpha": 0.1,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.39666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "alpha": 0.05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.23333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "alpha": 0.02,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.09,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "alpha": 0.01,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.04,
+          "validation_power": 0.37833333333333335,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "alpha": 0.005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.006666666666666667,
+          "validation_power": 0.3383333333333333,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "alpha": 0.002,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.255,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "alpha": 0.001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.255,
+          "feasible": true
+        },
+        {
+          "index": 7,
+          "config": {
+            "alpha": 0.0005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.19499999999999998,
+          "feasible": true
+        },
+        {
+          "index": 8,
+          "config": {
+            "alpha": 0.0001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.14,
+          "feasible": true
+        },
+        {
+          "index": 9,
+          "config": {
+            "alpha": 1e-05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.05666666666666667,
+          "feasible": true
+        },
+        {
+          "index": 10,
+          "config": {
+            "alpha": 1e-06,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.01,
+          "feasible": true
+        }
+      ]
+    },
+    "OPTWIN": {
+      "status": "selected",
+      "selected_index": 4,
+      "selected": {
+        "index": 4,
+        "config": {
+          "delta": 0.005,
+          "rigor": 0.5,
+          "max_window": 200,
+          "min_subwindow": 20,
+          "clock": 5,
+          "cut_step": 5,
+          "use_variance_test": true,
+          "two_sided": true,
+          "implementation": "local_optwin_style_reproduction"
+        },
+        "calibration_fpr": 0.04666666666666667,
+        "validation_power": 0.245,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.10333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.09333333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.06666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.056666666666666664,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.04666666666666667,
+          "validation_power": 0.245,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.04,
+          "validation_power": 0.21166666666666667,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.04,
+          "validation_power": 0.19000000000000003,
+          "feasible": true
+        },
+        {
+          "index": 7,
+          "config": {
+            "delta": 0.0005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.04,
+          "validation_power": 0.165,
+          "feasible": true
+        }
+      ]
+    }
+  },
+  "task_balanced/correct_option_nll": {
+    "ADWIN": {
+      "status": "selected",
+      "selected_index": 0,
+      "selected": {
+        "index": 0,
+        "config": {
+          "delta": 0.1,
+          "clock": 8,
+          "max_buckets": 5,
+          "min_window_length": 10,
+          "grace_period": 30
+        },
+        "calibration_fpr": 0.0033333333333333335,
+        "validation_power": 0.5016666666666666,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.5016666666666666,
+          "feasible": true
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.44166666666666665,
+          "feasible": true
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0033333333333333335,
+          "validation_power": 0.375,
+          "feasible": true
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.33499999999999996,
+          "feasible": true
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.315,
+          "feasible": true
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.285,
+          "feasible": true
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "clock": 8,
+            "max_buckets": 5,
+            "min_window_length": 10,
+            "grace_period": 30
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.25666666666666665,
+          "feasible": true
+        }
+      ]
+    },
+    "Page-Hinkley": {
+      "status": "selected",
+      "selected_index": 9,
+      "selected": {
+        "index": 9,
+        "config": {
+          "min_instances": 30,
+          "delta": 0.005,
+          "threshold": 50.0,
+          "alpha": 0.9999,
+          "mode": "both"
+        },
+        "calibration_fpr": 0.0,
+        "validation_power": 0.013333333333333334,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 2.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 3.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 4.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 5.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 7.5,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.9966666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 10.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.9,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 15.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.96,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 20.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.89,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 8,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 30.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.4633333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 9,
+          "config": {
+            "min_instances": 30,
+            "delta": 0.005,
+            "threshold": 50.0,
+            "alpha": 0.9999,
+            "mode": "both"
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.013333333333333334,
+          "feasible": true
+        }
+      ]
+    },
+    "KSWIN": {
+      "status": "selected",
+      "selected_index": 7,
+      "selected": {
+        "index": 7,
+        "config": {
+          "alpha": 0.0005,
+          "window_size": 100,
+          "stat_size": 30,
+          "seed": 42
+        },
+        "calibration_fpr": 0.05,
+        "validation_power": 0.455,
+        "feasible": true
+      },
+      "target_fpr": 0.05,
+      "selection_rule": "maximize_validation_power_subject_to_calibration_fpr",
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "alpha": 0.1,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.9833333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "alpha": 0.05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.9433333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "alpha": 0.02,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.7633333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "alpha": 0.01,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.39666666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "alpha": 0.005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.19666666666666666,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "alpha": 0.002,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.08,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "alpha": 0.001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.08,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "alpha": 0.0005,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.05,
+          "validation_power": 0.455,
+          "feasible": true
+        },
+        {
+          "index": 8,
+          "config": {
+            "alpha": 0.0001,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.016666666666666666,
+          "validation_power": 0.38166666666666665,
+          "feasible": true
+        },
+        {
+          "index": 9,
+          "config": {
+            "alpha": 1e-05,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.285,
+          "feasible": true
+        },
+        {
+          "index": 10,
+          "config": {
+            "alpha": 1e-06,
+            "window_size": 100,
+            "stat_size": 30,
+            "seed": 42
+          },
+          "calibration_fpr": 0.0,
+          "validation_power": 0.125,
+          "feasible": true
+        }
+      ]
+    },
+    "OPTWIN": {
+      "status": "not_calibratable",
+      "target_fpr": 0.05,
+      "candidates": [
+        {
+          "index": 0,
+          "config": {
+            "delta": 0.1,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.73,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 1,
+          "config": {
+            "delta": 0.05,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 1.0,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 2,
+          "config": {
+            "delta": 0.02,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.5733333333333334,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 3,
+          "config": {
+            "delta": 0.01,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.36,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 4,
+          "config": {
+            "delta": 0.005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.2866666666666667,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 5,
+          "config": {
+            "delta": 0.002,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.19333333333333333,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 6,
+          "config": {
+            "delta": 0.001,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.14,
+          "validation_power": null,
+          "feasible": false
+        },
+        {
+          "index": 7,
+          "config": {
+            "delta": 0.0005,
+            "rigor": 0.5,
+            "max_window": 200,
+            "min_subwindow": 20,
+            "clock": 5,
+            "cut_step": 5,
+            "use_variance_test": true,
+            "two_sided": true,
+            "implementation": "local_optwin_style_reproduction"
+          },
+          "calibration_fpr": 0.10333333333333333,
+          "validation_power": null,
+          "feasible": false
+        }
+      ]
+    }
+  }
+}

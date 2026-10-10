@@ -1,0 +1,7 @@
+{
+  "paper_main_results_sha256": "3185b0dcce96738be81f54fa1083ebf2a406af3bcb98e6be62b325d9a6161b05",
+  "framework_paper_cells_matched": 140,
+  "ablation_paper_cells_matched": 18,
+  "sensitivity_rows_regenerated": 12,
+  "full_gpu_experiments_rerun": false
+}

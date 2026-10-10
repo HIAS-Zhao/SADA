@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-26",
+  "hardware": "single CPU thread, AMD EPYC 9654 96-Core Processor",
+  "streams": [
+    "A",
+    "E_text"
+  ],
+  "raw_dim": 2048,
+  "pca_dim_per_stream": 128,
+  "window_size": 200,
+  "repetitions": {
+    "per_sample_projection": 5000,
+    "window_decision_projected": 5000,
+    "window_batch_path": 2000,
+    "matched_method_windows": 300
+  },
+  "per_sample_dual_stream_projection": {
+    "mean_ms": 0.19866538122296334,
+    "p50_ms": 0.19564107060432434,
+    "p95_ms": 0.21129753440618518,
+    "p99_ms": 0.22676289081573503
+  },
+  "window_end_dual_stream_decision_from_projected_buffer": {
+    "mean_ms": 0.042274778336286546,
+    "p50_ms": 0.04190206527709961,
+    "p95_ms": 0.045620836317539215,
+    "p99_ms": 0.04896540194749833
+  },
+  "window_end_dual_stream_transform_and_decision_batch_path": {
+    "mean_ms": 2.6493091359734535,
+    "p50_ms": 2.633865922689438,
+    "p95_ms": 2.7067190036177635,
+    "p99_ms": 2.8264788165688515
+  },
+  "matched_projected_window_method_latency": {
+    "SADA": {
+      "mean_ms": 0.03063535938660304,
+      "p50_ms": 0.030372291803359985,
+      "p95_ms": 0.032648444175720215,
+      "p99_ms": 0.03675866872072219,
+      "windows_per_second": 32642.01954938723
+    },
+    "Global Fréchet": {
+      "mean_ms": 8.320780023932457,
+      "p50_ms": 8.285190910100937,
+      "p95_ms": 8.547602593898773,
+      "p99_ms": 8.898561261594288,
+      "windows_per_second": 120.1810403740722
+    },
+    "LSDD": {
+      "mean_ms": 0.3318975741664569,
+      "p50_ms": 0.31982362270355225,
+      "p95_ms": 0.37984438240528107,
+      "p99_ms": 0.3864738717675209,
+      "windows_per_second": 3012.977731191458
+    },
+    "MMD": {
+      "mean_ms": 1.388466755549113,
+      "p50_ms": 1.3856776058673859,
+      "p95_ms": 1.410914771258831,
+      "p99_ms": 1.4308721199631689,
+      "windows_per_second": 720.2189004550695
+    },
+    "KS": {
+      "mean_ms": 69.66058876365423,
+      "p50_ms": 69.62539069354534,
+      "p95_ms": 71.11562620848417,
+      "p99_ms": 72.18989703804255,
+      "windows_per_second": 14.3553193814198
+    },
+    "CVM": {
+      "mean_ms": 78.53518368055423,
+      "p50_ms": 78.49722914397717,
+      "p95_ms": 79.1486470028758,
+      "p99_ms": 79.62415482848883,
+      "windows_per_second": 12.733146510073114
+    }
+  },
+  "matched_method_protocol": {
+    "feature_group": "A+E_text",
+    "shared_pca_dim_per_stream": 128,
+    "shared_window_size": 200,
+    "shared_window_indices": true,
+    "common_cost_excluded": "VLM forward, hook capture, and per-sample PCA projection are shared by all methods.",
+    "method_specific_scope": "Two stream scores plus max fusion, using the exact scorer classes from run_best_mahalanobis_baseline_comparison.py; one-time fitting and threshold calibration are excluded."
+  },
+  "scope": "Detector-head CPU microbenchmark on cached features; excludes VLM forward time and does not measure hook-copy/pooling overhead against an uninstrumented forward."
+}

@@ -1,0 +1,6 @@
+-r analysis.txt
+sacrebleu==2.5.1
+rouge-score==0.1.2
+nltk==3.9.2
+pycocoevalcap==1.2
+openai==2.14.0

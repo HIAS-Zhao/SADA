@@ -1,0 +1,12 @@
+{
+  "seed_count": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "group_rows": 945,
+  "per_seed_cells": 420,
+  "aggregate_cells": 140,
+  "sample_std_ddof": 1
+}

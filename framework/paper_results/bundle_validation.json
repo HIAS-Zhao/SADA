@@ -1,0 +1,126 @@
+{
+  "seed42_reproduction_cases": 105,
+  "max_error": 0.0,
+  "audits": [
+    {
+      "seed": 42,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning",
+      "test": 29,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 42,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference",
+      "test": 58,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 42,
+      "family": "remoteclip",
+      "group": "remoteclip",
+      "test": 51,
+      "lambdas": 8,
+      "gammas": 56,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 42,
+      "family": "resnet18",
+      "group": "resnet18",
+      "test": 51,
+      "lambdas": 11,
+      "gammas": 77,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 43,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning",
+      "test": 29,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 43,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference",
+      "test": 58,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 43,
+      "family": "remoteclip",
+      "group": "remoteclip",
+      "test": 51,
+      "lambdas": 8,
+      "gammas": 56,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 43,
+      "family": "resnet18",
+      "group": "resnet18",
+      "test": 51,
+      "lambdas": 11,
+      "gammas": 77,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 44,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning",
+      "test": 29,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 44,
+      "family": "qwen35",
+      "group": "perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference",
+      "test": 58,
+      "lambdas": 8,
+      "gammas": 50,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 44,
+      "family": "remoteclip",
+      "group": "remoteclip",
+      "test": 51,
+      "lambdas": 8,
+      "gammas": 56,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    },
+    {
+      "seed": 44,
+      "family": "resnet18",
+      "group": "resnet18",
+      "test": 51,
+      "lambdas": 11,
+      "gammas": 77,
+      "split_disjoint": true,
+      "test_label_invariance": true
+    }
+  ]
+}

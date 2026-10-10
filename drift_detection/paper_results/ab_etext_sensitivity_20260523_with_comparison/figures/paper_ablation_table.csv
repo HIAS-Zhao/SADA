@@ -1,0 +1,4 @@
+paper_feature_stream,feature_group,fpr_pct,recall_05_pct,recall_10_pct,recall_12_pct,recall_20_pct,macro_accuracy_pct
+V,A,1.3,6.0,26.0,34.5,92.5,43.11
+VT,E_text,3.1,64.8,99.5,100.0,100.0,93.66
+V+VT,A+E_text,4.0,66.3,99.5,100.0,100.0,94.0

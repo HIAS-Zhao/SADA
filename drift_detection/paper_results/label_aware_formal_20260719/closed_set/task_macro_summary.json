@@ -1,0 +1,170 @@
+[
+  {
+    "signal": "binary_error",
+    "method": "DDM",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0,
+    "task_macro_detection_rate_std_across_tasks": 0.0
+  },
+  {
+    "signal": "binary_error",
+    "method": "DDM",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0,
+    "task_macro_detection_rate_std_across_tasks": 0.0
+  },
+  {
+    "signal": "binary_error",
+    "method": "DDM",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0,
+    "task_macro_detection_rate_std_across_tasks": 0.0
+  },
+  {
+    "signal": "binary_error",
+    "method": "EDDM",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0006,
+    "task_macro_detection_rate_std_across_tasks": 0.00027888667551135855
+  },
+  {
+    "signal": "binary_error",
+    "method": "EDDM",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0026000000000000003,
+    "task_macro_detection_rate_std_across_tasks": 0.0010903618155864085
+  },
+  {
+    "signal": "binary_error",
+    "method": "EDDM",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.023999999999999997,
+    "task_macro_detection_rate_std_across_tasks": 0.016064107680028653
+  },
+  {
+    "signal": "binary_error",
+    "method": "HDDM-W",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.14046666666666668,
+    "task_macro_detection_rate_std_across_tasks": 0.11089499537851112
+  },
+  {
+    "signal": "binary_error",
+    "method": "HDDM-W",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.584,
+    "task_macro_detection_rate_std_across_tasks": 0.2981203150109402
+  },
+  {
+    "signal": "binary_error",
+    "method": "HDDM-W",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.8600666666666665,
+    "task_macro_detection_rate_std_across_tasks": 0.2518290204792838
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "ADWIN",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.0386,
+    "task_macro_detection_rate_std_across_tasks": 0.05492085214196881
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "ADWIN",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.3576666666666667,
+    "task_macro_detection_rate_std_across_tasks": 0.36939327130970984
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "ADWIN",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.9620666666666666,
+    "task_macro_detection_rate_std_across_tasks": 0.08109884229890227
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "KSWIN",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.018,
+    "task_macro_detection_rate_std_across_tasks": 0.009043106644167024
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "KSWIN",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.3868000000000001,
+    "task_macro_detection_rate_std_across_tasks": 0.2613880257395124
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "KSWIN",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.8123333333333334,
+    "task_macro_detection_rate_std_across_tasks": 0.3517593084924848
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "Page-Hinkley",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.003266666666666667,
+    "task_macro_detection_rate_std_across_tasks": 0.0027527763762750105
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "Page-Hinkley",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.033,
+    "task_macro_detection_rate_std_across_tasks": 0.04822516632077765
+  },
+  {
+    "signal": "correct_option_nll",
+    "method": "Page-Hinkley",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.35006666666666664,
+    "task_macro_detection_rate_std_across_tasks": 0.3581794553324104
+  },
+  {
+    "signal": "method_native",
+    "method": "SADA",
+    "ratio": 0.05,
+    "tasks": 5,
+    "task_macro_detection_rate": 0.9999333333333332,
+    "task_macro_detection_rate_std_across_tasks": 0.00014907119849996955
+  },
+  {
+    "signal": "method_native",
+    "method": "SADA",
+    "ratio": 0.1,
+    "tasks": 5,
+    "task_macro_detection_rate": 1.0,
+    "task_macro_detection_rate_std_across_tasks": 0.0
+  },
+  {
+    "signal": "method_native",
+    "method": "SADA",
+    "ratio": 0.2,
+    "tasks": 5,
+    "task_macro_detection_rate": 1.0,
+    "task_macro_detection_rate_std_across_tasks": 0.0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    "qwen25",
+    "qwen35",
+    "remoteclip",
+    "resnet18"
+  ],
+  "methods": [
+    "NoRetrain",
+    "Periodic",
+    "Static",
+    "EWC",
+    "SADA"
+  ],
+  "load_factors": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "std_ddof": 1,
+  "table_source_sha256": "3185b0dcce96738be81f54fa1083ebf2a406af3bcb98e6be62b325d9a6161b05"
+}

@@ -1,0 +1,4 @@
+-r detectors.txt
+torchvision==0.24.1
+open-clip-torch==2.32.0
+safetensors==0.7.0

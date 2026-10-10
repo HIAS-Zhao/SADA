@@ -1,0 +1,209 @@
+{
+  "natural/binary_error": {
+    "DDM": {
+      "config": {
+        "warm_start": 30,
+        "warning_threshold": 2.0,
+        "drift_threshold": 2.5
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.1466666666666667
+    },
+    "EDDM": {
+      "config": {
+        "warm_start": 30,
+        "alpha": 0.98,
+        "beta": 0.85
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.0016666666666666668
+    },
+    "ADWIN": {
+      "config": {
+        "delta": 0.1,
+        "clock": 8,
+        "max_buckets": 5,
+        "min_window_length": 10,
+        "grace_period": 30
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.3
+    },
+    "HDDM-W": {
+      "config": {
+        "drift_confidence": 0.0005,
+        "warning_confidence": 0.0025,
+        "lambda_val": 0.05,
+        "two_sided_test": true
+      },
+      "calibration_fpr": 0.02666666666666667,
+      "validation_power": 0.6416666666666667
+    },
+    "Page-Hinkley": {
+      "config": {
+        "min_instances": 30,
+        "delta": 0.005,
+        "threshold": 15.0,
+        "alpha": 0.9999,
+        "mode": "both"
+      },
+      "calibration_fpr": 0.006666666666666667,
+      "validation_power": 0.3083333333333333
+    },
+    "KSWIN": {
+      "config": {
+        "alpha": 0.02,
+        "window_size": 100,
+        "stat_size": 30,
+        "seed": 42
+      },
+      "calibration_fpr": 0.05,
+      "validation_power": 0.4533333333333333
+    }
+  },
+  "natural/correct_option_nll": {
+    "ADWIN": {
+      "config": {
+        "delta": 0.1,
+        "clock": 8,
+        "max_buckets": 5,
+        "min_window_length": 10,
+        "grace_period": 30
+      },
+      "calibration_fpr": 0.0033333333333333335,
+      "validation_power": 0.535
+    },
+    "Page-Hinkley": {
+      "config": {
+        "min_instances": 30,
+        "delta": 0.005,
+        "threshold": 50.0,
+        "alpha": 0.9999,
+        "mode": "both"
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.215
+    },
+    "KSWIN": {
+      "config": {
+        "alpha": 0.0005,
+        "window_size": 100,
+        "stat_size": 30,
+        "seed": 42
+      },
+      "calibration_fpr": 0.02666666666666667,
+      "validation_power": 0.40166666666666667
+    }
+  },
+  "task_balanced/binary_error": {
+    "DDM": {
+      "config": {
+        "warm_start": 30,
+        "warning_threshold": 2.0,
+        "drift_threshold": 4.0
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.006666666666666667
+    },
+    "EDDM": {
+      "config": {
+        "warm_start": 30,
+        "alpha": 0.98,
+        "beta": 0.85
+      },
+      "calibration_fpr": 0.03,
+      "validation_power": 0.125
+    },
+    "ADWIN": {
+      "config": {
+        "delta": 0.1,
+        "clock": 8,
+        "max_buckets": 5,
+        "min_window_length": 10,
+        "grace_period": 30
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.32
+    },
+    "HDDM-W": {
+      "config": {
+        "drift_confidence": 0.001,
+        "warning_confidence": 0.005,
+        "lambda_val": 0.05,
+        "two_sided_test": true
+      },
+      "calibration_fpr": 0.04666666666666667,
+      "validation_power": 0.6666666666666666
+    },
+    "Page-Hinkley": {
+      "config": {
+        "min_instances": 30,
+        "delta": 0.005,
+        "threshold": 20.0,
+        "alpha": 0.9999,
+        "mode": "both"
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.16333333333333333
+    },
+    "KSWIN": {
+      "config": {
+        "alpha": 0.01,
+        "window_size": 100,
+        "stat_size": 30,
+        "seed": 42
+      },
+      "calibration_fpr": 0.04,
+      "validation_power": 0.37833333333333335
+    },
+    "OPTWIN": {
+      "config": {
+        "delta": 0.005,
+        "rigor": 0.5,
+        "max_window": 200,
+        "min_subwindow": 20,
+        "clock": 5,
+        "cut_step": 5,
+        "use_variance_test": true,
+        "two_sided": true,
+        "implementation": "local_optwin_style_reproduction"
+      },
+      "calibration_fpr": 0.04666666666666667,
+      "validation_power": 0.245
+    }
+  },
+  "task_balanced/correct_option_nll": {
+    "ADWIN": {
+      "config": {
+        "delta": 0.1,
+        "clock": 8,
+        "max_buckets": 5,
+        "min_window_length": 10,
+        "grace_period": 30
+      },
+      "calibration_fpr": 0.0033333333333333335,
+      "validation_power": 0.5016666666666666
+    },
+    "Page-Hinkley": {
+      "config": {
+        "min_instances": 30,
+        "delta": 0.005,
+        "threshold": 50.0,
+        "alpha": 0.9999,
+        "mode": "both"
+      },
+      "calibration_fpr": 0.0,
+      "validation_power": 0.013333333333333334
+    },
+    "KSWIN": {
+      "config": {
+        "alpha": 0.0005,
+        "window_size": 100,
+        "stat_size": 30,
+        "seed": 42
+      },
+      "calibration_fpr": 0.05,
+      "validation_power": 0.455
+    }
+  }
+}

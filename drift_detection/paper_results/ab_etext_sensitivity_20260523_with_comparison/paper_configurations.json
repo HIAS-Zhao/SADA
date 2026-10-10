@@ -1,0 +1,566 @@
+[
+  {
+    "feature_group": "A+E_text",
+    "fusion_rule": "max_norm",
+    "streams": [
+      "A",
+      "E_text"
+    ],
+    "window_size": 200,
+    "requested_pca_dim": 128,
+    "actual_pca_dims": {
+      "A": 128,
+      "E_text": 128
+    },
+    "calibration_windows": 10000,
+    "calibration_quantile": 0.99,
+    "stream_thresholds": {
+      "A": 1.0245093827958967,
+      "E_text": 0.9552867283962675
+    },
+    "evaluation": [
+      {
+        "drift_ratio": 0.0,
+        "windows": 1000,
+        "n_clean": 200,
+        "n_drift": 0,
+        "detection_rate": 0.04,
+        "accuracy": 0.96,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.897671215604828,
+        "std_rule_score": 0.05397271135703268,
+        "mean_exceed_count": 0.044
+      },
+      {
+        "drift_ratio": 0.05,
+        "windows": 1000,
+        "n_clean": 190,
+        "n_drift": 10,
+        "detection_rate": 0.663,
+        "accuracy": 0.663,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.0552275630117884,
+        "std_rule_score": 0.11127916990383868,
+        "mean_exceed_count": 0.708
+      },
+      {
+        "drift_ratio": 0.06,
+        "windows": 1000,
+        "n_clean": 188,
+        "n_drift": 12,
+        "detection_rate": 0.793,
+        "accuracy": 0.793,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.1015638570862467,
+        "std_rule_score": 0.11837187011444099,
+        "mean_exceed_count": 0.852
+      },
+      {
+        "drift_ratio": 0.07,
+        "windows": 1000,
+        "n_clean": 186,
+        "n_drift": 14,
+        "detection_rate": 0.906,
+        "accuracy": 0.906,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.163669588385922,
+        "std_rule_score": 0.13962399614259574,
+        "mean_exceed_count": 1.017
+      },
+      {
+        "drift_ratio": 0.08,
+        "windows": 1000,
+        "n_clean": 184,
+        "n_drift": 16,
+        "detection_rate": 0.971,
+        "accuracy": 0.971,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.2199786620086266,
+        "std_rule_score": 0.14703039892777675,
+        "mean_exceed_count": 1.098
+      },
+      {
+        "drift_ratio": 0.09,
+        "windows": 1000,
+        "n_clean": 182,
+        "n_drift": 18,
+        "detection_rate": 0.992,
+        "accuracy": 0.992,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.2916466162849416,
+        "std_rule_score": 0.16723827864655172,
+        "mean_exceed_count": 1.179
+      },
+      {
+        "drift_ratio": 0.1,
+        "windows": 1000,
+        "n_clean": 180,
+        "n_drift": 20,
+        "detection_rate": 0.995,
+        "accuracy": 0.995,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.3598676444905706,
+        "std_rule_score": 0.18563468693055485,
+        "mean_exceed_count": 1.255
+      },
+      {
+        "drift_ratio": 0.12,
+        "windows": 1000,
+        "n_clean": 176,
+        "n_drift": 24,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.5073694742230883,
+        "std_rule_score": 0.2146321197983943,
+        "mean_exceed_count": 1.345
+      },
+      {
+        "drift_ratio": 0.14,
+        "windows": 1000,
+        "n_clean": 172,
+        "n_drift": 28,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.65976543041871,
+        "std_rule_score": 0.23139358391247405,
+        "mean_exceed_count": 1.536
+      },
+      {
+        "drift_ratio": 0.16,
+        "windows": 1000,
+        "n_clean": 168,
+        "n_drift": 32,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.8203012251119677,
+        "std_rule_score": 0.256467651805589,
+        "mean_exceed_count": 1.699
+      },
+      {
+        "drift_ratio": 0.18,
+        "windows": 1000,
+        "n_clean": 164,
+        "n_drift": 36,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.9788198550283083,
+        "std_rule_score": 0.2726052988835925,
+        "mean_exceed_count": 1.842
+      },
+      {
+        "drift_ratio": 0.2,
+        "windows": 1000,
+        "n_clean": 160,
+        "n_drift": 40,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 2.146510123226647,
+        "std_rule_score": 0.2947486186381029,
+        "mean_exceed_count": 1.925
+      },
+      {
+        "drift_ratio": 0.3,
+        "windows": 1000,
+        "n_clean": 140,
+        "n_drift": 60,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 3.053551523651294,
+        "std_rule_score": 0.3771349910275369,
+        "mean_exceed_count": 2.0
+      },
+      {
+        "drift_ratio": 0.5,
+        "windows": 1000,
+        "n_clean": 100,
+        "n_drift": 100,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 4.868736886825655,
+        "std_rule_score": 0.4941632247713448,
+        "mean_exceed_count": 2.0
+      }
+    ]
+  },
+  {
+    "feature_group": "A",
+    "fusion_rule": "single",
+    "streams": [
+      "A"
+    ],
+    "window_size": 200,
+    "requested_pca_dim": 128,
+    "actual_pca_dims": {
+      "A": 128
+    },
+    "calibration_windows": 10000,
+    "calibration_quantile": 0.99,
+    "stream_thresholds": {
+      "A": 1.0245093827958967
+    },
+    "evaluation": [
+      {
+        "drift_ratio": 0.0,
+        "windows": 1000,
+        "n_clean": 200,
+        "n_drift": 0,
+        "detection_rate": 0.013,
+        "accuracy": 0.987,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.8521101959076511,
+        "std_rule_score": 0.061280005577878834,
+        "mean_exceed_count": 0.013
+      },
+      {
+        "drift_ratio": 0.05,
+        "windows": 1000,
+        "n_clean": 190,
+        "n_drift": 10,
+        "detection_rate": 0.06,
+        "accuracy": 0.06,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.8935659728166497,
+        "std_rule_score": 0.0648898090189138,
+        "mean_exceed_count": 0.06
+      },
+      {
+        "drift_ratio": 0.06,
+        "windows": 1000,
+        "n_clean": 188,
+        "n_drift": 12,
+        "detection_rate": 0.072,
+        "accuracy": 0.072,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.9031423840581303,
+        "std_rule_score": 0.06567584692235033,
+        "mean_exceed_count": 0.072
+      },
+      {
+        "drift_ratio": 0.07,
+        "windows": 1000,
+        "n_clean": 186,
+        "n_drift": 14,
+        "detection_rate": 0.118,
+        "accuracy": 0.118,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.9190371037828521,
+        "std_rule_score": 0.06758420698668458,
+        "mean_exceed_count": 0.118
+      },
+      {
+        "drift_ratio": 0.08,
+        "windows": 1000,
+        "n_clean": 184,
+        "n_drift": 16,
+        "detection_rate": 0.135,
+        "accuracy": 0.135,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.924736669124391,
+        "std_rule_score": 0.06824423341399848,
+        "mean_exceed_count": 0.135
+      },
+      {
+        "drift_ratio": 0.09,
+        "windows": 1000,
+        "n_clean": 182,
+        "n_drift": 18,
+        "detection_rate": 0.194,
+        "accuracy": 0.194,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.9403175943254639,
+        "std_rule_score": 0.06972793363410382,
+        "mean_exceed_count": 0.194
+      },
+      {
+        "drift_ratio": 0.1,
+        "windows": 1000,
+        "n_clean": 180,
+        "n_drift": 20,
+        "detection_rate": 0.26,
+        "accuracy": 0.26,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.9518762676711889,
+        "std_rule_score": 0.0706876859616296,
+        "mean_exceed_count": 0.26
+      },
+      {
+        "drift_ratio": 0.12,
+        "windows": 1000,
+        "n_clean": 176,
+        "n_drift": 24,
+        "detection_rate": 0.345,
+        "accuracy": 0.345,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.9772343487764993,
+        "std_rule_score": 0.07053347727357745,
+        "mean_exceed_count": 0.345
+      },
+      {
+        "drift_ratio": 0.14,
+        "windows": 1000,
+        "n_clean": 172,
+        "n_drift": 28,
+        "detection_rate": 0.536,
+        "accuracy": 0.536,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.0104340936899767,
+        "std_rule_score": 0.0696335404399814,
+        "mean_exceed_count": 0.536
+      },
+      {
+        "drift_ratio": 0.16,
+        "windows": 1000,
+        "n_clean": 168,
+        "n_drift": 32,
+        "detection_rate": 0.699,
+        "accuracy": 0.699,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.037727243168501,
+        "std_rule_score": 0.07376265416505161,
+        "mean_exceed_count": 0.699
+      },
+      {
+        "drift_ratio": 0.18,
+        "windows": 1000,
+        "n_clean": 164,
+        "n_drift": 36,
+        "detection_rate": 0.842,
+        "accuracy": 0.842,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.072440065656495,
+        "std_rule_score": 0.07436983629983653,
+        "mean_exceed_count": 0.842
+      },
+      {
+        "drift_ratio": 0.2,
+        "windows": 1000,
+        "n_clean": 160,
+        "n_drift": 40,
+        "detection_rate": 0.925,
+        "accuracy": 0.925,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.1045141674858068,
+        "std_rule_score": 0.07394525039339955,
+        "mean_exceed_count": 0.925
+      },
+      {
+        "drift_ratio": 0.3,
+        "windows": 1000,
+        "n_clean": 140,
+        "n_drift": 60,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.2952294738116752,
+        "std_rule_score": 0.0900405374394478,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.5,
+        "windows": 1000,
+        "n_clean": 100,
+        "n_drift": 100,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.7404746068699144,
+        "std_rule_score": 0.10442695996252392,
+        "mean_exceed_count": 1.0
+      }
+    ]
+  },
+  {
+    "feature_group": "E_text",
+    "fusion_rule": "single",
+    "streams": [
+      "E_text"
+    ],
+    "window_size": 200,
+    "requested_pca_dim": 128,
+    "actual_pca_dims": {
+      "E_text": 128
+    },
+    "calibration_windows": 10000,
+    "calibration_quantile": 0.99,
+    "stream_thresholds": {
+      "E_text": 0.9552867283962675
+    },
+    "evaluation": [
+      {
+        "drift_ratio": 0.0,
+        "windows": 1000,
+        "n_clean": 200,
+        "n_drift": 0,
+        "detection_rate": 0.031,
+        "accuracy": 0.969,
+        "metric_name": "accuracy",
+        "mean_rule_score": 0.8824705715793427,
+        "std_rule_score": 0.057958890978520874,
+        "mean_exceed_count": 0.031
+      },
+      {
+        "drift_ratio": 0.05,
+        "windows": 1000,
+        "n_clean": 190,
+        "n_drift": 10,
+        "detection_rate": 0.648,
+        "accuracy": 0.648,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.052118763953735,
+        "std_rule_score": 0.11426032153109547,
+        "mean_exceed_count": 0.648
+      },
+      {
+        "drift_ratio": 0.06,
+        "windows": 1000,
+        "n_clean": 188,
+        "n_drift": 12,
+        "detection_rate": 0.78,
+        "accuracy": 0.78,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.0989254426045563,
+        "std_rule_score": 0.12130207007371527,
+        "mean_exceed_count": 0.78
+      },
+      {
+        "drift_ratio": 0.07,
+        "windows": 1000,
+        "n_clean": 186,
+        "n_drift": 14,
+        "detection_rate": 0.899,
+        "accuracy": 0.899,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.16264933544997,
+        "std_rule_score": 0.1408376457299738,
+        "mean_exceed_count": 0.899
+      },
+      {
+        "drift_ratio": 0.08,
+        "windows": 1000,
+        "n_clean": 184,
+        "n_drift": 16,
+        "detection_rate": 0.963,
+        "accuracy": 0.963,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.2188592161667349,
+        "std_rule_score": 0.1485555470435029,
+        "mean_exceed_count": 0.963
+      },
+      {
+        "drift_ratio": 0.09,
+        "windows": 1000,
+        "n_clean": 182,
+        "n_drift": 18,
+        "detection_rate": 0.985,
+        "accuracy": 0.985,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.2910386962319675,
+        "std_rule_score": 0.16811055992626703,
+        "mean_exceed_count": 0.985
+      },
+      {
+        "drift_ratio": 0.1,
+        "windows": 1000,
+        "n_clean": 180,
+        "n_drift": 20,
+        "detection_rate": 0.995,
+        "accuracy": 0.995,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.3598049700241526,
+        "std_rule_score": 0.18576734924465058,
+        "mean_exceed_count": 0.995
+      },
+      {
+        "drift_ratio": 0.12,
+        "windows": 1000,
+        "n_clean": 176,
+        "n_drift": 24,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.5073679939057325,
+        "std_rule_score": 0.21463471217317767,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.14,
+        "windows": 1000,
+        "n_clean": 172,
+        "n_drift": 28,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.65976543041871,
+        "std_rule_score": 0.23139358391247405,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.16,
+        "windows": 1000,
+        "n_clean": 168,
+        "n_drift": 32,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.8203012251119677,
+        "std_rule_score": 0.256467651805589,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.18,
+        "windows": 1000,
+        "n_clean": 164,
+        "n_drift": 36,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 1.9788198550283083,
+        "std_rule_score": 0.2726052988835925,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.2,
+        "windows": 1000,
+        "n_clean": 160,
+        "n_drift": 40,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 2.146510123226647,
+        "std_rule_score": 0.2947486186381029,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.3,
+        "windows": 1000,
+        "n_clean": 140,
+        "n_drift": 60,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 3.053551523651294,
+        "std_rule_score": 0.3771349910275369,
+        "mean_exceed_count": 1.0
+      },
+      {
+        "drift_ratio": 0.5,
+        "windows": 1000,
+        "n_clean": 100,
+        "n_drift": 100,
+        "detection_rate": 1.0,
+        "accuracy": 1.0,
+        "metric_name": "accuracy",
+        "mean_rule_score": 4.868736886825655,
+        "std_rule_score": 0.4941632247713448,
+        "mean_exceed_count": 1.0
+      }
+    ]
+  }
+]

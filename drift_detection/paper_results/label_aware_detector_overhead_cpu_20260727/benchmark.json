@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-27",
+  "hardware": "single CPU thread, AMD EPYC 9654 96-Core Processor",
+  "protocol": {
+    "source_experiment": "@@WORKSPACE@@/drift_detection_exp/results_detection/performance_degrading_change_20260714/performance_degrading_config.json",
+    "trace_pool": "2_Stream_Sim_NoDrift",
+    "trace_count": 300,
+    "trace_length": 200,
+    "repeats_per_trace": 10,
+    "shared_underlying_sample_indices": true,
+    "sampling_with_replacement_within_trace": false,
+    "seed": 20260726,
+    "high_loss_event_threshold": 0.7,
+    "timed_scope": "Detector update and alarm-state computation for all values in each trace, starting from the same method-specific warmed state.",
+    "excluded": [
+      "ground-truth label acquisition",
+      "supervised answer-NLL computation",
+      "calibration-ECDF and high-loss-event construction",
+      "detector configuration selection and calibration",
+      "warmup and warmed-state cloning"
+    ]
+  },
+  "methods": {
+    "DDM": {
+      "mean_ms_per_trace": 0.16051594664653143,
+      "p50_ms_per_trace": 0.15985965728759766,
+      "p95_ms_per_trace": 0.16678590327501297,
+      "p99_ms_per_trace": 0.17146158963441846,
+      "mean_us_per_update": 0.8025797332326572,
+      "updates_per_second": 1245982.1231370582,
+      "signal": "binary_high_loss_event",
+      "config": {
+        "warm_start": 30,
+        "warning_threshold": 2.0,
+        "drift_threshold": 2.5
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 0,
+      "alarm_execution_rate": 0.0
+    },
+    "EDDM": {
+      "mean_ms_per_trace": 0.10050265242656072,
+      "p50_ms_per_trace": 0.10040216147899628,
+      "p95_ms_per_trace": 0.11087935417890547,
+      "p99_ms_per_trace": 0.11622574180364607,
+      "mean_us_per_update": 0.5025132621328036,
+      "updates_per_second": 1989997.2306317384,
+      "signal": "binary_high_loss_event",
+      "config": {
+        "warm_start": 30,
+        "alpha": 0.98,
+        "beta": 0.92
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 0,
+      "alarm_execution_rate": 0.0
+    },
+    "ADWIN": {
+      "mean_ms_per_trace": 7.840576802690824,
+      "p50_ms_per_trace": 7.86169059574604,
+      "p95_ms_per_trace": 7.908404059708118,
+      "p99_ms_per_trace": 7.947850488126277,
+      "mean_us_per_update": 39.20288401345412,
+      "updates_per_second": 25508.327388791295,
+      "signal": "calibration_ecdf_supervised_nll",
+      "config": {
+        "delta": 0.1,
+        "clock": 8,
+        "min_window_length": 10,
+        "grace_period": 30,
+        "max_window": 400,
+        "cut_step": 5,
+        "two_sided": true
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 50,
+      "alarm_execution_rate": 0.016666666666666666
+    },
+    "HDDM-W": {
+      "mean_ms_per_trace": 0.5039464322229227,
+      "p50_ms_per_trace": 0.4996359348297119,
+      "p95_ms_per_trace": 0.531250424683094,
+      "p99_ms_per_trace": 0.5620530247688289,
+      "mean_us_per_update": 2.5197321611146135,
+      "updates_per_second": 396867.57800386456,
+      "signal": "binary_high_loss_event",
+      "config": {
+        "drift_confidence": 0.0005,
+        "warning_confidence": 0.0025,
+        "lambda_val": 0.05
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 30,
+      "alarm_execution_rate": 0.01
+    },
+    "Page-Hinkley": {
+      "mean_ms_per_trace": 0.16364185263713202,
+      "p50_ms_per_trace": 0.16294792294502258,
+      "p95_ms_per_trace": 0.16963891685009003,
+      "p99_ms_per_trace": 0.17824042588472366,
+      "mean_us_per_update": 0.8182092631856601,
+      "updates_per_second": 1222181.2255052528,
+      "signal": "calibration_ecdf_supervised_nll",
+      "config": {
+        "min_instances": 30,
+        "delta": 0.005,
+        "threshold": 15.0,
+        "alpha": 0.9999,
+        "mode": "both"
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 10,
+      "alarm_execution_rate": 0.0033333333333333335
+    },
+    "KSWIN": {
+      "mean_ms_per_trace": 9.084902664025625,
+      "p50_ms_per_trace": 9.141795337200165,
+      "p95_ms_per_trace": 9.228343702852726,
+      "p99_ms_per_trace": 9.27181240171194,
+      "mean_us_per_update": 45.42451332012813,
+      "updates_per_second": 22014.545163148472,
+      "signal": "calibration_ecdf_supervised_nll",
+      "config": {
+        "alpha": 0.0005,
+        "window_size": 100,
+        "stat_size": 30,
+        "seed": 42,
+        "clock": 5
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 70,
+      "alarm_execution_rate": 0.023333333333333334
+    },
+    "OPTWIN": {
+      "mean_ms_per_trace": 7.065343961119652,
+      "p50_ms_per_trace": 7.081003859639168,
+      "p95_ms_per_trace": 7.140859588980675,
+      "p99_ms_per_trace": 7.169179506599903,
+      "mean_us_per_update": 35.32671980559826,
+      "updates_per_second": 28307.185198709816,
+      "signal": "calibration_ecdf_supervised_nll",
+      "config": {
+        "delta": 0.05,
+        "rigor": 0.5,
+        "max_window": 200,
+        "min_subwindow": 20,
+        "clock": 5,
+        "cut_step": 5,
+        "use_variance_test": false,
+        "two_sided": true
+      },
+      "timed_executions": 3000,
+      "executions_with_alarm": 180,
+      "alarm_execution_rate": 0.06
+    }
+  },
+  "scope": "Detector-side CPU microbenchmark after the required supervised signal is available; not end-to-end label-aware detection latency."
+}

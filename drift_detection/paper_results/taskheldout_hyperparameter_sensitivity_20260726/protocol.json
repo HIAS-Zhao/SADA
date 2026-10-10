@@ -1,0 +1,31 @@
+{
+  "input": "@@REPOSITORY@@\\drift_detection\\paper_results\\task_heldout_detector_20260726\\candidate_fold_scores.csv",
+  "main_setting": {
+    "feature_group": "A+E_text",
+    "pca_dim": 128,
+    "window_size": 200,
+    "quantile": 0.99
+  },
+  "axes": {
+    "pca_dim": [
+      64,
+      128,
+      192,
+      256
+    ],
+    "window_size": [
+      100,
+      150,
+      200,
+      300
+    ],
+    "quantile": [
+      0.95,
+      0.97,
+      0.99,
+      0.995
+    ]
+  },
+  "aggregation": "Fixed one-at-a-time slices; arithmetic mean across seven held-out-task final-test folds.",
+  "selection_use": "Diagnostic only. The held-out sensitivity table is not used to retune the fixed main detector."
+}

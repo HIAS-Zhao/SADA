@@ -1,0 +1,283 @@
+{
+  "protocol": "progressive_format_mixture",
+  "loss_dir": "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_formal_20260719/supervised_loss_uniform_px1003520",
+  "window_size": 200,
+  "windows_per_setting": 1000,
+  "ratios": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "target_fpr": 0.05,
+  "event_quantile": 0.95,
+  "format_groups": {
+    "closed_set": [
+      "mcq",
+      "yes_no"
+    ],
+    "open_short": [
+      "open_short"
+    ],
+    "long_generation": [
+      "caption",
+      "long_report"
+    ]
+  },
+  "fallback_policy": "use global calibration ECDF only when a format group has no calibration samples; record every fallback count",
+  "optwin_provenance": "local OPTWIN-style reproduction with two-sided mean and variance tests",
+  "weightings": [
+    "natural",
+    "task_balanced"
+  ],
+  "variants": {
+    "caption": {
+      "calibration_formats": [
+        "caption",
+        "mcq",
+        "open_short"
+      ],
+      "no_drift_formats": [
+        "caption",
+        "mcq",
+        "open_short"
+      ],
+      "drift_formats": [
+        "mcq",
+        "yes_no"
+      ]
+    },
+    "long_report": {
+      "calibration_formats": [
+        "caption",
+        "mcq",
+        "open_short"
+      ],
+      "no_drift_formats": [
+        "caption",
+        "mcq",
+        "open_short"
+      ],
+      "drift_formats": [
+        "long_report",
+        "mcq",
+        "yes_no"
+      ]
+    },
+    "mcq": {
+      "calibration_formats": [
+        "mcq"
+      ],
+      "no_drift_formats": [
+        "mcq"
+      ],
+      "drift_formats": [
+        "mcq"
+      ]
+    },
+    "mcq_yesno": {
+      "calibration_formats": [
+        "mcq"
+      ],
+      "no_drift_formats": [
+        "mcq"
+      ],
+      "drift_formats": [
+        "mcq",
+        "yes_no"
+      ]
+    },
+    "open_short": {
+      "calibration_formats": [
+        "mcq",
+        "open_short"
+      ],
+      "no_drift_formats": [
+        "mcq",
+        "open_short"
+      ],
+      "drift_formats": [
+        "mcq",
+        "yes_no"
+      ]
+    }
+  },
+  "variant_sizes": {
+    "caption": {
+      "calibration": 3515,
+      "no_drift": 3664,
+      "drift_validation": 1320,
+      "drift_test": 5147,
+      "calibration_formats": {
+        "caption": 1072,
+        "mcq": 1364,
+        "open_short": 1079
+      },
+      "no_drift_formats": {
+        "caption": 1082,
+        "mcq": 1643,
+        "open_short": 939
+      },
+      "drift_formats": {
+        "mcq": 2929,
+        "yes_no": 3538
+      },
+      "reference_tasks": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "long_report": {
+      "calibration": 3515,
+      "no_drift": 3664,
+      "drift_validation": 1580,
+      "drift_test": 6066,
+      "calibration_formats": {
+        "caption": 1072,
+        "mcq": 1364,
+        "open_short": 1079
+      },
+      "no_drift_formats": {
+        "caption": 1082,
+        "mcq": 1643,
+        "open_short": 939
+      },
+      "drift_formats": {
+        "long_report": 1179,
+        "mcq": 2929,
+        "yes_no": 3538
+      },
+      "reference_tasks": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "mcq": {
+      "calibration": 1364,
+      "no_drift": 1643,
+      "drift_validation": 596,
+      "drift_test": 2333,
+      "calibration_formats": {
+        "mcq": 1364
+      },
+      "no_drift_formats": {
+        "mcq": 1643
+      },
+      "drift_formats": {
+        "mcq": 2929
+      },
+      "reference_tasks": [
+        8,
+        9
+      ]
+    },
+    "mcq_yesno": {
+      "calibration": 1364,
+      "no_drift": 1643,
+      "drift_validation": 1320,
+      "drift_test": 5147,
+      "calibration_formats": {
+        "mcq": 1364
+      },
+      "no_drift_formats": {
+        "mcq": 1643
+      },
+      "drift_formats": {
+        "mcq": 2929,
+        "yes_no": 3538
+      },
+      "reference_tasks": [
+        8,
+        9
+      ]
+    },
+    "open_short": {
+      "calibration": 2443,
+      "no_drift": 2582,
+      "drift_validation": 1320,
+      "drift_test": 5147,
+      "calibration_formats": {
+        "mcq": 1364,
+        "open_short": 1079
+      },
+      "no_drift_formats": {
+        "mcq": 1643,
+        "open_short": 939
+      },
+      "drift_formats": {
+        "mcq": 2929,
+        "yes_no": 3538
+      },
+      "reference_tasks": [
+        8,
+        9,
+        11
+      ]
+    }
+  },
+  "sharded_execution": true,
+  "shard_pairs": [
+    {
+      "variant": "caption",
+      "weighting": "natural"
+    },
+    {
+      "variant": "caption",
+      "weighting": "task_balanced"
+    },
+    {
+      "variant": "long_report",
+      "weighting": "natural"
+    },
+    {
+      "variant": "long_report",
+      "weighting": "task_balanced"
+    },
+    {
+      "variant": "mcq",
+      "weighting": "natural"
+    },
+    {
+      "variant": "mcq",
+      "weighting": "task_balanced"
+    },
+    {
+      "variant": "mcq_yesno",
+      "weighting": "natural"
+    },
+    {
+      "variant": "mcq_yesno",
+      "weighting": "task_balanced"
+    },
+    {
+      "variant": "open_short",
+      "weighting": "natural"
+    },
+    {
+      "variant": "open_short",
+      "weighting": "task_balanced"
+    }
+  ],
+  "missing_shard_pairs": [],
+  "shard_sources": [
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/caption_natural",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/caption_task_balanced",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/long_report_natural",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/long_report_task_balanced",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/mcq_natural",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/mcq_task_balanced",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/mcq_yesno_natural",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/mcq_yesno_task_balanced",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/open_short_natural",
+    "results_detection/label_aware_formal_20260719/heterogeneous_shards/open_short_task_balanced"
+  ]
+}

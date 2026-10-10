@@ -1,0 +1,74 @@
+{
+  "protocol": "closed_set_strict_option_scoring",
+  "strict_input_dir": "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_formal_20260719/strict_inputs",
+  "strict_prediction_dir": "@@WORKSPACE@@/drift_detection_exp/results_detection/label_aware_formal_20260719/strict_predictions",
+  "features_dir": "@@WORKSPACE@@/drift_detection_exp/features_pooled_e_fusion",
+  "river_path": "/tmp/label_aware_audit_river",
+  "window_size": 200,
+  "windows_per_ratio": 1000,
+  "task_macro_windows": 1000,
+  "calibration_windows": 300,
+  "sada_calibration_windows": 10000,
+  "validation_windows": 200,
+  "target_fpr": 0.05,
+  "validation_fraction": 0.2,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "main_ratios": [
+    0.0,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+    0.2
+  ],
+  "budgets": [
+    10,
+    20,
+    40,
+    50,
+    100,
+    200
+  ],
+  "drift_tasks": [
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "pool_sizes": {
+    "calibration": 1364,
+    "no_drift": 1643,
+    "drift_validation": 596,
+    "drift_test": 2339
+  },
+  "error_rates": {
+    "calibration": 0.2565982404692082,
+    "no_drift": 0.2556299452221546,
+    "drift_validation": 0.6812080536912751,
+    "drift_test": 0.6797776827704147
+  },
+  "option_nll_means": {
+    "calibration": 0.6085298949356834,
+    "no_drift": 0.5914717262894852,
+    "drift_validation": 1.6504252252918679,
+    "drift_test": 1.6393422565282794
+  },
+  "sada": {
+    "feature_group": "A+E_text",
+    "fusion_rule": "max_norm",
+    "pca_dim": 128,
+    "calibration_quantile": 0.99
+  },
+  "optwin_provenance": "local OPTWIN-style reproduction with two-sided mean and variance tests"
+}

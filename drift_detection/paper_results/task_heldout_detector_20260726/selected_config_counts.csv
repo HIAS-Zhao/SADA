@@ -1,0 +1,4 @@
+feature_group,pca_dim,window_size,quantile,selected_folds
+E_text,256,300,0.99,5
+E_text,256,150,0.995,1
+E_text,256,300,0.97,1

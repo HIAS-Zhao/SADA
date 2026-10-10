@@ -1,0 +1,370 @@
+{
+  "new_qwen_checkpoints": 40,
+  "seeds": [
+    43,
+    44
+  ],
+  "audits": [
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/ewc/v2_g1_A9_B3/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 148.704
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/ewc/v2_g2_A8_B4/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 144.9668
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/ewc/v2_g0_A8_B1/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 447.9773
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/ewc/v2_g5_A9_B7/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 138.5547
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/ewc/v2_g3_A9_B5/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 141.8473
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/plain/v2_g1_A9_B3/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 254.486
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/plain/v2_g2_A8_B4/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 84.5097
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/plain/v2_g0_A8_B1/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 252.967
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/plain/v2_g5_A9_B7/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 166.575
+    },
+    {
+      "family": "qwen25",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/qwen25/plain/v2_g3_A9_B5/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 142.7773
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/ewc_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 27.878
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r8_s10/runtime.json",
+      "steps": 10,
+      "rank": 8,
+      "runtime_s": 28.2583
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r4_s5/runtime.json",
+      "steps": 5,
+      "rank": 4,
+      "runtime_s": 18.5244
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 27.8421
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r8_s20/runtime.json",
+      "steps": 20,
+      "rank": 8,
+      "runtime_s": 46.7448
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/ewc_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 30.8284
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r8_s10/runtime.json",
+      "steps": 10,
+      "rank": 8,
+      "runtime_s": 34.011
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r4_s5/runtime.json",
+      "steps": 5,
+      "rank": 4,
+      "runtime_s": 22.3485
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 33.0283
+    },
+    {
+      "family": "qwen35",
+      "seed": 43,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed43/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r8_s20/runtime.json",
+      "steps": 20,
+      "rank": 8,
+      "runtime_s": 51.171
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/ewc/v2_g1_A9_B3/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 156.1798
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/ewc/v2_g2_A8_B4/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 152.4772
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/ewc/v2_g0_A8_B1/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 443.4292
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/ewc/v2_g5_A9_B7/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 144.5278
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/ewc/v2_g3_A9_B5/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 152.012
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/plain/v2_g1_A9_B3/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 254.2893
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/plain/v2_g2_A8_B4/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 85.2989
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/plain/v2_g0_A8_B1/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 247.6394
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/plain/v2_g5_A9_B7/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 166.2222
+    },
+    {
+      "family": "qwen25",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/qwen25/plain/v2_g3_A9_B5/runtime.json",
+      "steps": 120,
+      "rank": 8,
+      "test_count": 110,
+      "accepted": 110,
+      "runtime_s": 144.0689
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/ewc_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 26.9103
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r8_s10/runtime.json",
+      "steps": 10,
+      "rank": 8,
+      "runtime_s": 28.3655
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r4_s5/runtime.json",
+      "steps": 5,
+      "rank": 4,
+      "runtime_s": 18.1216
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 26.7875
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b1_1_spatial_relationship_reasoning/plain_r8_s20/runtime.json",
+      "steps": 20,
+      "rank": 8,
+      "runtime_s": 47.7266
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/ewc_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 29.7761
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r8_s10/runtime.json",
+      "steps": 10,
+      "rank": 8,
+      "runtime_s": 33.4998
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r4_s5/runtime.json",
+      "steps": 5,
+      "rank": 4,
+      "runtime_s": 21.602
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r4_s10/runtime.json",
+      "steps": 10,
+      "rank": 4,
+      "runtime_s": 29.0792
+    },
+    {
+      "family": "qwen35",
+      "seed": 44,
+      "path": "@@WORKSPACE@@/drift_lora_project/results/framework_seeds43_44_20260921/seed44/three_models/qwen35/train/perception_a1_2_land_cover_classification__reasoning_b3_2_disaster_cause_inference/plain_r8_s20/runtime.json",
+      "steps": 20,
+      "rank": 8,
+      "runtime_s": 47.8607
+    }
+  ],
+  "specialist_training_seed_checks": true
+}
